@@ -26,7 +26,7 @@ PARAMS = {
     "ph": "",
     "ls": "",
     "lsh": "",
-    "fd": 365,          # last 365 days
+    "fd": 0,            # 0 = no date cap; filtering done in-code
     "fdr": "",
     "td": 0,
     "tdr": "",
@@ -36,10 +36,10 @@ PARAMS = {
     "dlh": "",
     "minprice": "",
     "maxprice": "",
-    "minvalue": 90000,   # minimum $90k trade value
+    "minvalue": "",     # not reliably honoured server-side; filtered in-code
     "maxvalue": "",
-    "oc": "P",           # open market purchases only
-    "vl": 25,
+    "oc": "P",          # hint to server; enforced in-code as well
+    "vl": "",
     "vh": "",
     "isofficer": 1,
     "isdirector": 1,
@@ -49,8 +49,11 @@ PARAMS = {
     "groupby": "filingdate",
     "sortby": "filingdate",
     "isdesc": 1,
+    "cnt": 1000,        # fetch 1000 rows per request (default is 100)
     "export": 0,
 }
+
+MIN_TRADE_VALUE = 90_000  # minimum trade value in dollars (enforced in-code)
 
 HEADERS = {
     "User-Agent": (
@@ -181,9 +184,10 @@ def fetch_trades() -> list[dict]:
             "cluster_buy":  False,
         })
 
-    # Defensive filter: keep only open-market purchases regardless of API param
+    # Defensive filters (API params are not reliably honoured server-side)
     trades = [t for t in trades if t["trade_type"].startswith("P")]
-    print(f"Parsed {len(trades)} purchase trades from the page.")
+    trades = [t for t in trades if parse_value(t["value"]) >= MIN_TRADE_VALUE]
+    print(f"Parsed {len(trades)} purchase trades >= ${MIN_TRADE_VALUE:,} from the page.")
     return trades
 
 
@@ -297,7 +301,11 @@ def save_history_csv(new_trades: list[dict]) -> int:
 def save_latest_json(trades: list[dict]) -> None:
     """Save the most recent HISTORY_DAYS of trades to latest.json (overwrite)."""
     cutoff = (datetime.utcnow() - timedelta(days=HISTORY_DAYS)).strftime("%Y-%m-%d")
-    filtered = [t for t in trades if t.get("filing_date", "") >= cutoff]
+    filtered = [
+        t for t in trades
+        if t.get("filing_date", "") >= cutoff
+        and parse_value(t.get("value", "0")) >= MIN_TRADE_VALUE
+    ]
 
     payload = {
         "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),

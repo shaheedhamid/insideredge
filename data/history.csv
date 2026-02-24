@@ -10,3 +10,49 @@ filing_date,trade_date,ticker,company,insider_name,title,trade_type,price,qty,ow
 2026-02-23,2026-02-20,CNDT,Conduent Inc,Agadi Harshavardhan V,CEO,P - Purchase,1.56,117099,2233928,+6%,182909,False
 2026-02-23,2026-02-19,HBAN,Huntington Bancshares Inc /Md/,Torgow Gary,Dir,P - Purchase,17.81,14200,949016,+2%,252902,False
 2026-02-23,2026-02-20,VERX,"Vertex, Inc.",Andersen Eric C.,Dir,P - Purchase,12.91,40000,150341,+36%,516400,False
+2026-02-23,2026-02-19,F,Ford Motor Co,Ford William Clay Jr,"Exec Chair, Chair",P - Purchase,13.82,140000,20329142,+1%,1934450,False
+2026-02-23,2026-02-23,TLSI,"Trisalus Life Sciences, Inc.",Valle William,Dir,P - Purchase,4.10,30487,30487,New,124997,True
+2026-02-23,2026-02-23,TLSI,"Trisalus Life Sciences, Inc.",Szela Mary T,"CEO, Pres",P - Purchase,4.10,30487,773289,+4%,124997,True
+2026-02-23,2026-02-23,TLSI,"Trisalus Life Sciences, Inc.",Stansky Michael P,Dir,P - Purchase,4.10,361098,986830,+58%,1480502,True
+2026-02-23,2026-02-19,CEVA,Ceva Inc,Panush Amir,CEO,P - Purchase,19.70,5100,276032,+2%,100470,False
+2026-02-23,2026-02-20,ELF,"E.L.F. Beauty, Inc.",Farrell Matthew,Dir,P - Purchase,92.96,5000,10820,+86%,464815,False
+2026-02-23,2026-02-20,PODD,Insulet Corp,McEvoy Ashley,"Pres, CEO",P - Purchase,239.35,4300,13920,+45%,1029205,False
+2026-02-23,2026-02-19,LXRX,"Lexicon Pharmaceuticals, Inc.",Debbane Raymond,Dir,P - Purchase,1.47,150000,51558909,0%,219755,False
+2026-02-23,2026-02-20,CVRX,"Cvrx, Inc.",Jain Mudit K.,Dir,P - Purchase,6.36,46800,985833,+5%,297592,False
+2026-02-20,2026-02-20,WY,Weyerhaeuser Co,O'Rourke James Calvin,Dir,P - Purchase,25.35,4000,28661,+16%,101400,True
+2026-02-20,2026-02-19,WY,Weyerhaeuser Co,Beckwitt Richard,Dir,P - Purchase,25.70,20000,24066,+492%,514000,True
+2026-02-20,2026-02-18,MPLT,"Maplight Therapeutics, Inc.",Pavlov George,Dir,P - Purchase,17.65,25000,25000,New,441168,False
+2026-02-20,2025-02-20,ACAAU,Averin Capital Acquisition Corp.,Averin Capital Acquisition Sponsor LLC,"See Remarks, 10%",P - Purchase,10.00,200000,200000,New,2000000,False
+2026-02-20,2026-02-20,TSI,Tcw Strategic Income Fund Inc,McMillan Peter,Dir,P - Purchase,4.64,50000,300000,+20%,232000,False
+2026-02-20,2026-02-19,ARW,"Arrow Electronics, Inc.",Austen William F.,"Interim Pres, CEO",P - Purchase,151.87,3960,44722,+10%,601408,False
+2026-02-20,2026-02-18,ARAY,Accuray Inc,Mayer Steven F,Dir,P - Purchase,0.53,195125,1490745,+15%,103797,False
+2026-02-20,2026-02-18,MSCI,Msci Inc.,Ashe Robert G.,Dir,P - Purchase,543.21,3681,22766,+19%,1999556,False
+2026-02-20,2026-02-18,CNDT,Conduent Inc,Agadi Harshavardhan V,CEO,P - Purchase,1.43,220000,2116829,+12%,313720,False
+2026-02-19,2026-02-17,NRC,National Research Corp,Harrison Shane R,"EVP, CFO",P - Purchase,12.27,8000,158729,+5%,98162,False
+2026-02-19,2026-02-17,LBRT,Liberty Energy Inc.,Murti Arjun N,Dir,P - Purchase,25.79,9696,27568,+54%,250000,False
+2026-02-19,2026-02-17,CMRC,"Commerce.Com, Inc.",Siminoff Ellen F,Exec Chair,P - Purchase,2.94,100000,431319,+30%,294080,False
+2026-02-19,2026-02-19,USAC,"USA Compression Partners, LP",Whitehurst Bradford D.,Dir,P - Purchase,26.75,10000,33616,+42%,267500,False
+2026-02-19,2026-02-18,EFX,Equifax Inc,Mao Cecilia,"EVP, Chief Product Officer",P - Purchase,193.72,2400,10623,+29%,464928,False
+2026-02-19,2026-02-17,AAT,"American Assets Trust, Inc.",Rady Ernest S,"Exec COB, 10%",P - Purchase,18.81,159866,12942949,+1%,3007686,False
+2026-02-19,2026-02-17,MH,"McGraw Hill, Inc.",Reinemund Steven,Dir,P - Purchase,13.70,58000,84592,+218%,794600,False
+2026-02-19,2026-02-11,SLQT,"Selectquote, Inc.",Grant Robert Clay,Pres,P - Purchase,0.88,118901,5525804,+2%,105024,False
+2026-02-19,2026-02-17,TCBI,Texas Capital Bancshares Inc/Tx,Stallings Robert W,Dir,P - Purchase,22.13,10000,840500,+1%,221280,False
+2026-02-19,2026-02-17,NDAQ,"Nasdaq, Inc.",Torgeby Johan,Dir,P - Purchase,79.86,12000,40797,+42%,958320,False
+2026-02-19,2026-02-18,TSI,Tcw Strategic Income Fund Inc,McMillan Peter,Dir,P - Purchase,4.70,32610,250000,+15%,153267,False
+2026-02-19,2025-03-14,FRPH,"Frp Holdings, Inc.",Baker John D II,"Dir, 10%",P - Purchase,27.45,6608,191516,+4%,181390,False
+2026-02-19,2026-02-19,EXE,Expand Energy Corp,Gallagher Matthew,Dir,P - Purchase,100.66,1000,17917,+6%,100660,False
+2026-02-19,2026-02-17,HTGC,"Hercules Capital, Inc.",Theodosopoulos Nikos,Dir,P - Purchase,15.93,6165,18923,+48%,98208,True
+2026-02-19,2026-02-17,HTGC,"Hercules Capital, Inc.",Fallon Thomas J,Dir,P - Purchase,15.88,20000,126148,+19%,317600,True
+2026-02-19,2026-02-17,ASST,"Strive, Inc.",Pham Benjamin,CFO,P - Purchase,8.15,14114,17818,+381%,115095,False
+2026-02-18,2026-02-13,FAF,First American Financial Corp,Kennedy Parker S,Dir,P - Purchase,67.68,59841,2417098,+3%,4050101,False
+2026-02-18,2025-06-04,ABX,"Abacus Global Management, Inc.",McNealy Sean,"Co-Founder, Pres, 10%",P - Purchase,5.77,86207,12455707,+1%,497759,True
+2026-02-18,2025-06-04,ABX,"Abacus Global Management, Inc.",Kirby Kevin Scott,"Co-Founder, Pres, 10%",P - Purchase,5.77,86207,12455407,+1%,497759,True
+2026-02-18,2026-02-17,KKR,Kkr & Co. Inc.,Cohler Matt,Dir,P - Purchase,102.90,43872,143045,+44%,4514429,True
+2026-02-18,2026-02-17,KKR,Kkr & Co. Inc.,Bae Joseph Y,Co-CEO,P - Purchase,102.19,125000,18456070,+1%,12773530,True
+2026-02-18,2026-02-17,KKR,Kkr & Co. Inc.,Nuttall Scott C,Co-CEO,P - Purchase,102.67,125000,20269424,+1%,12833087,True
+2026-02-18,2026-02-18,MSFT,Microsoft Corp,Stanton John W,Dir,P - Purchase,397.35,5000,87527,+6%,1986750,False
+2026-02-18,2026-02-17,GDV,Gabelli Dividend & Income Trust,Gabelli Mario J,Control Person of Adviser,P - Purchase,29.09,4500,796812,+1%,130920,False
+2026-02-18,2026-02-13,VERX,"Vertex, Inc.",Westphal Jeffrey,See Remarks,P - Purchase,12.88,397740,405635,>999%,5121294,True
+2026-02-18,2026-02-13,LEE,"Lee Enterprises, Inc",Hoffmann David Henry,"Dir, 10%",P - Purchase,7.14,27299,11555639,0%,194992,False
+2026-02-18,2026-02-13,LXRX,"Lexicon Pharmaceuticals, Inc.",Debbane Raymond,Dir,P - Purchase,1.31,268497,51408909,+1%,352889,False
+2026-02-18,2026-02-18,FCPT,"Four Corners Property Trust, Inc.",Lenehan William H,"Pres, CEO",P - Purchase,24.73,10080,757980,+1%,249321,False
