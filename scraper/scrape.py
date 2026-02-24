@@ -20,37 +20,26 @@ from bs4 import BeautifulSoup
 # ---------------------------------------------------------------------------
 BASE_URL = "http://openinsider.com/screener"
 PARAMS = {
-    "s": "",
-    "o": "",
-    "pl": "",
-    "ph": "",
-    "ls": "",
-    "lsh": "",
-    "fd": 0,            # 0 = no date cap; filtering done in-code
+    "s": "", "o": "", "pl": "", "ph": "", "ll": "", "lh": "",
+    "fd": 730,          # last 730 days (~2 years)
     "fdr": "",
-    "td": 0,
-    "tdr": "",
-    "fdlyl": "",
-    "fdlyh": "",
-    "dlt": 0,
-    "dlh": "",
-    "minprice": "",
-    "maxprice": "",
-    "minvalue": "",     # not reliably honoured server-side; filtered in-code
-    "maxvalue": "",
-    "oc": "P",          # hint to server; enforced in-code as well
-    "vl": "",
+    "td": 0, "tdr": "",
+    "fdlyl": "", "fdlyh": "", "daysago": "",
+    "xp": 1,
+    "vl": 90,           # minimum value $90K (server-side filter, $K units)
     "vh": "",
-    "isofficer": 1,
-    "isdirector": 1,
-    "istenpercentowner": 1,
-    "isother": 1,
-    "industry": "",
-    "groupby": "filingdate",
-    "sortby": "filingdate",
-    "isdesc": 1,
-    "cnt": 1000,        # fetch 1000 rows per request (default is 100)
-    "export": 0,
+    "ocl": "", "och": "",
+    "sic1": -1, "sicl": 100, "sich": 9999,
+    "isofficer": 1, "iscob": 1, "isceo": 1, "ispres": 1,
+    "iscoo": 1, "iscfo": 1, "isgc": 1, "isvp": 1,
+    "isdirector": 1, "istenpercent": 1, "isother": 1,
+    "grp": 0,
+    "nfl": "", "nfh": "", "nil": "", "nih": "",
+    "nol": "", "noh": "", "v2l": "", "v2h": "",
+    "oc2l": "", "oc2h": "",
+    "sortcol": 0,
+    "cnt": 1000,
+    "page": 1,
 }
 
 MIN_TRADE_VALUE = 90_000  # minimum trade value in dollars (enforced in-code)
