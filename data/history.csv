@@ -5924,3 +5924,7 @@ filing_date,trade_date,ticker,company,insider_name,title,trade_type,price,qty,ow
 2025-02-27,2025-02-21,TCBI,Texas Capital Bancshares Inc/tx,Stallings Robert W,Dir,P - Purchase,21.26,2500,711170,0%,53150,False
 2025-02-27,2025-02-26,TBI,"Trueblue, Inc.",Owen Taryn R,"CEO, Pres",P - Purchase,5.94,12735,414932,+3%,75646,False
 2025-02-27,2025-02-26,MTDR,Matador Resources Co,Elsener William Thomas,"EVP, Reservoir Engineering",P - Purchase,52.40,1000,109747,+1%,52400,True
+2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Hirsch Erik R.,"Co-CEO, 10%",P - Purchase,107.13,9225,880275,+1%,988260,True
+2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Delgado-Moreira Juan,"Co-CEO, 10%",P - Purchase,107.24,9225,1338047,+1%,989311,True
+2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Kramer Andrea Anigati,"COO, 10%",P - Purchase,107.53,2325,219644,+1%,250011,True
+2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Giannini Mario L,"Exec  Co-COB, 10%",P - Purchase,107.32,9225,1418054,+1%,990010,True

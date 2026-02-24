@@ -1,7 +1,6 @@
 {
-
-  "last_updated": "2026-02-24T21:01:32Z",
-  "trade_count": 5923,
+  "last_updated": "2026-02-24T21:08:51Z",
+  "trade_count": 5927,
   "trades": [
     {
       "filing_date": "2026-02-23",
@@ -88846,6 +88845,66 @@
       "owned": "109747",
       "delta_own": "+1%",
       "value": "52400",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Inc",
+      "insider_name": "Hirsch Erik R.",
+      "title": "Co-CEO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "107.13",
+      "qty": "9225",
+      "owned": "880275",
+      "delta_own": "+1%",
+      "value": "988260",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Inc",
+      "insider_name": "Delgado-Moreira Juan",
+      "title": "Co-CEO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "107.24",
+      "qty": "9225",
+      "owned": "1338047",
+      "delta_own": "+1%",
+      "value": "989311",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Inc",
+      "insider_name": "Kramer Andrea Anigati",
+      "title": "COO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "107.53",
+      "qty": "2325",
+      "owned": "219644",
+      "delta_own": "+1%",
+      "value": "250011",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "HLNE",
+      "company": "Hamilton Lane Inc",
+      "insider_name": "Giannini Mario L",
+      "title": "Exec  Co-COB, 10%",
+      "trade_type": "P - Purchase",
+      "price": "107.32",
+      "qty": "9225",
+      "owned": "1418054",
+      "delta_own": "+1%",
+      "value": "990010",
       "cluster_buy": true
     }
   ]
