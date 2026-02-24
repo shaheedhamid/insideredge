@@ -26,7 +26,7 @@ PARAMS = {
     "ph": "",
     "ls": "",
     "lsh": "",
-    "fd": 365,           # last 365 days
+    "fd": 0,            # 0 = no date cap; filtering done in-code
     "fdr": "",
     "td": 0,
     "tdr": "",
@@ -36,10 +36,10 @@ PARAMS = {
     "dlh": "",
     "minprice": "",
     "maxprice": "",
-    "minvalue": 90000,  # minimum $90k trade value
+    "minvalue": "",     # not reliably honoured server-side; filtered in-code
     "maxvalue": "",
-    "oc": "P",           # open market purchases only
-    "vl": 25,
+    "oc": "P",          # hint to server; enforced in-code as well
+    "vl": "",
     "vh": "",
     "isofficer": 1,
     "isdirector": 1,
@@ -49,8 +49,11 @@ PARAMS = {
     "groupby": "filingdate",
     "sortby": "filingdate",
     "isdesc": 1,
+    "cnt": 1000,        # fetch 1000 rows per request (default is 100)
     "export": 0,
 }
+
+MIN_TRADE_VALUE = 90_000  # minimum trade value in dollars (enforced in-code)
 
 HEADERS = {
     "User-Agent": (
@@ -181,7 +184,10 @@ def fetch_trades() -> list[dict]:
             "cluster_buy":  False,
         })
 
-    print(f"Parsed {len(trades)} trades from the page.")
+    # Defensive filters (API params are not reliably honoured server-side)
+    trades = [t for t in trades if t["trade_type"].startswith("P")]
+    trades = [t for t in trades if parse_value(t["value"]) >= MIN_TRADE_VALUE]
+    print(f"Parsed {len(trades)} purchase trades >= ${MIN_TRADE_VALUE:,} from the page.")
     return trades
 
 
@@ -259,6 +265,19 @@ def load_existing_csv() -> dict[str, dict]:
     return existing
 
 
+def load_history_as_list() -> list[dict]:
+    """Load all rows from history.csv as a list of trade dicts."""
+    if not os.path.exists(HISTORY_CSV):
+        return []
+    trades = []
+    with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            row["cluster_buy"] = row.get("cluster_buy", "").strip().lower() == "true"
+            trades.append(dict(row))
+    return trades
+
+
 def save_history_csv(new_trades: list[dict]) -> int:
     """Append new trades to history.csv, skipping duplicates. Returns number added."""
     existing = load_existing_csv()
@@ -280,9 +299,13 @@ def save_history_csv(new_trades: list[dict]) -> int:
 
 
 def save_latest_json(trades: list[dict]) -> None:
-    """Save the most recent 60 days of trades to latest.json (overwrite)."""
+    """Save the most recent HISTORY_DAYS of trades to latest.json (overwrite)."""
     cutoff = (datetime.utcnow() - timedelta(days=HISTORY_DAYS)).strftime("%Y-%m-%d")
-    filtered = [t for t in trades if t.get("filing_date", "") >= cutoff]
+    filtered = [
+        t for t in trades
+        if t.get("filing_date", "") >= cutoff
+        and parse_value(t.get("value", "0")) >= MIN_TRADE_VALUE
+    ]
 
     payload = {
         "last_updated": datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -309,10 +332,15 @@ def main() -> None:
 
     trades = detect_clusters(trades)
 
-    # Persist
+    # Persist new trades to CSV
     added = save_history_csv(trades)
     print(f"Added {added} new rows to {HISTORY_CSV}")
-    save_latest_json(trades)
+
+    # Build latest.json from the full CSV history (up to HISTORY_DAYS days),
+    # re-running cluster detection so cross-run clusters are caught correctly.
+    all_trades = load_history_as_list()
+    all_trades = detect_clusters(all_trades)
+    save_latest_json(all_trades)
 
     print("Done.")
 
