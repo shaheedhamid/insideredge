@@ -259,6 +259,19 @@ def load_existing_csv() -> dict[str, dict]:
     return existing
 
 
+def load_history_as_list() -> list[dict]:
+    """Load all rows from history.csv as a list of trade dicts."""
+    if not os.path.exists(HISTORY_CSV):
+        return []
+    trades = []
+    with open(HISTORY_CSV, newline="", encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            row["cluster_buy"] = row.get("cluster_buy", "").strip().lower() == "true"
+            trades.append(dict(row))
+    return trades
+
+
 def save_history_csv(new_trades: list[dict]) -> int:
     """Append new trades to history.csv, skipping duplicates. Returns number added."""
     existing = load_existing_csv()
@@ -280,7 +293,7 @@ def save_history_csv(new_trades: list[dict]) -> int:
 
 
 def save_latest_json(trades: list[dict]) -> None:
-    """Save the most recent 60 days of trades to latest.json (overwrite)."""
+    """Save the most recent HISTORY_DAYS of trades to latest.json (overwrite)."""
     cutoff = (datetime.utcnow() - timedelta(days=HISTORY_DAYS)).strftime("%Y-%m-%d")
     filtered = [t for t in trades if t.get("filing_date", "") >= cutoff]
 
@@ -309,10 +322,15 @@ def main() -> None:
 
     trades = detect_clusters(trades)
 
-    # Persist
+    # Persist new trades to CSV
     added = save_history_csv(trades)
     print(f"Added {added} new rows to {HISTORY_CSV}")
-    save_latest_json(trades)
+
+    # Build latest.json from the full CSV history (up to HISTORY_DAYS days),
+    # re-running cluster detection so cross-run clusters are caught correctly.
+    all_trades = load_history_as_list()
+    all_trades = detect_clusters(all_trades)
+    save_latest_json(all_trades)
 
     print("Done.")
 
