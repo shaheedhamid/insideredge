@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-24T08:40:28Z",
-  "trade_count": 55,
+  "last_updated": "2026-02-24T12:55:49Z",
+  "trade_count": 56,
   "trades": [
     {
       "filing_date": "2026-02-23",
@@ -825,6 +825,21 @@
       "owned": "757980",
       "delta_own": "+1%",
       "value": "249321",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "KELYA",
+      "company": "Kelly Services Inc",
+      "insider_name": "Hunt James Christopher",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "9.57",
+      "qty": "10000",
+      "owned": "15976",
+      "delta_own": "+167%",
+      "value": "95733",
       "cluster_buy": false
     }
   ]
