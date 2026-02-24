@@ -47,7 +47,7 @@ cd insider-radar
 
 Your dashboard will be live at:
 ```
-https://YOUR_USERNAME.github.io/insider-radar/
+https://shaheedhamid.github.io/insider-radar/
 ```
 
 > It may take 1–2 minutes after the first push for GitHub Pages to activate.
