@@ -82,7 +82,7 @@ CSV_FIELDNAMES = [
 
 CLUSTER_WINDOW_DAYS = 14  # days to look for cluster buys
 CLUSTER_MIN_INSIDERS = 2   # insiders required to flag cluster buy
-HISTORY_DAYS = 60          # how many days of data to keep in latest.json
+HISTORY_DAYS = 1000        # how many days of data to keep in latest.json
 
 
 # ---------------------------------------------------------------------------
