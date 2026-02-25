@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-25T02:28:15Z",
-  "trade_count": 5947,
+  "last_updated": "2026-02-25T04:55:06Z",
+  "trade_count": 5948,
   "trades": [
     {
       "filing_date": "2026-02-23",
@@ -89205,6 +89205,21 @@
       "owned": "246933",
       "delta_own": "+32%",
       "value": "461354",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-02-24",
+      "trade_date": "2026-02-20",
+      "ticker": "CAR",
+      "company": "Avis Budget Group, Inc.",
+      "insider_name": "Pentwater Capital Management LP",
+      "title": "10%",
+      "trade_type": "P - Purchase",
+      "price": "94.26",
+      "qty": "425000",
+      "owned": "8059400",
+      "delta_own": "+6%",
+      "value": "40060075",
       "cluster_buy": false
     }
   ]
