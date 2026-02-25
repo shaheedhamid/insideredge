@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-25T09:58:17Z",
-  "trade_count": 5948,
+  "last_updated": "2026-02-25T13:12:18Z",
+  "trade_count": 5949,
   "trades": [
     {
       "filing_date": "2026-02-23",
@@ -89220,6 +89220,21 @@
       "owned": "8059400",
       "delta_own": "+6%",
       "value": "40060075",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-02-25",
+      "trade_date": "2026-02-23",
+      "ticker": "LXRX",
+      "company": "Lexicon Pharmaceuticals, Inc.",
+      "insider_name": "Debbane Raymond",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "1.47",
+      "qty": "100000",
+      "owned": "51658909",
+      "delta_own": "0%",
+      "value": "147000",
       "cluster_buy": false
     }
   ]
