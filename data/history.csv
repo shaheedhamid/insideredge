@@ -5971,3 +5971,4 @@ filing_date,trade_date,ticker,company,insider_name,title,trade_type,price,qty,ow
 2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Delgado-Moreira Juan,"Co-CEO, 10%",P - Purchase,107.24,9225,1338047,+1%,989311,True
 2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Kramer Andrea Anigati,"COO, 10%",P - Purchase,107.53,2325,219644,+1%,250011,True
 2026-02-24,2026-02-20,HLNE,Hamilton Lane Inc,Giannini Mario L,"Exec  Co-COB, 10%",P - Purchase,107.32,9225,1418054,+1%,990010,True
+2026-02-26,2026-02-25,IPWR,Ideal Power Inc.,Somo David M,"Pres, CEO",P - Purchase,2.75,90909,338347,+37%,250000,False
