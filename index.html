@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
   <title>Insider Radar — Institutional Buying Intelligence</title>
   <meta name="description" content="Track real-time SEC Form 4 insider purchases. Spot cluster buys, filter by role, and follow smart money." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -995,7 +998,7 @@
           <th data-col="company">Company<i class="sort-arrow"></i></th>
           <th data-col="insider_name">Insider<i class="sort-arrow"></i></th>
           <th data-col="title">Role<i class="sort-arrow"></i></th>
-          <th data-col="value" class="sort-desc">Trade Value<i class="sort-arrow"></i></th>
+          <th data-col="value">Trade Value<i class="sort-arrow"></i></th>
           <th data-col="qty">Shares<i class="sort-arrow"></i></th>
           <th data-col="price">Price<i class="sort-arrow"></i></th>
           <th data-col="cluster_buy">Signal<i class="sort-arrow"></i></th>
@@ -1053,7 +1056,7 @@
   ];
 
   let allTrades       = [];
-  let sortCol         = 'value';
+  let sortCol         = 'filing_date';
   let sortDir         = 'desc';
   let expandedTickers = new Set();
 
