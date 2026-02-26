@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-26T18:55:39Z",
-  "trade_count": 4986,
+  "last_updated": "2026-02-26T20:40:37Z",
+  "trade_count": 4988,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -79777,6 +79777,38 @@
       "delta_own": "+1%",
       "value": "473962",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-02-26",
+      "filing_time": "15:02",
+      "trade_date": "2026-02-25",
+      "ticker": "SXC",
+      "company": "Suncoke Energy, Inc.",
+      "insider_name": "Hardesty Phillip Michael",
+      "title": "SVP",
+      "trade_type": "P - Purchase",
+      "price": "5.83",
+      "qty": "12500",
+      "owned": "298677",
+      "delta_own": "+4%",
+      "value": "72872",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-02-26",
+      "filing_time": "15:01",
+      "trade_date": "2026-02-25",
+      "ticker": "SXC",
+      "company": "Suncoke Energy, Inc.",
+      "insider_name": "Marinko Mark W.",
+      "title": "SVP, CFO",
+      "trade_type": "P - Purchase",
+      "price": "5.84",
+      "qty": "10000",
+      "owned": "71798",
+      "delta_own": "+16%",
+      "value": "58396",
+      "cluster_buy": true
     }
   ]
 }
