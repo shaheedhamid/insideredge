@@ -1,6 +1,6 @@
 # Insider Radar 📡
 
-A free, self-hosted GitHub Pages dashboard that tracks **insider buying activity** from [OpenInsider](http://openinsider.com). Data is automatically scraped every 2 hours via GitHub Actions and displayed in a clean, filterable dashboard.
+A free, self-hosted GitHub Pages dashboard that tracks **insider buying activity** from SEC Form 4 filings. Data is automatically scraped every 2 hours via GitHub Actions and displayed in a clean, filterable dashboard.
 
 ## Features
 
@@ -137,7 +137,7 @@ The scraper runs on a `cron: "0 */2 * * *"` schedule (every 2 hours). You can al
 
 ## Disclaimer
 
-This dashboard is for **informational and educational purposes only**. Insider trading data is publicly disclosed and sourced from SEC Form 4 filings via OpenInsider. Nothing here constitutes financial advice.
+This dashboard is for **informational and educational purposes only**. Insider trading data is publicly disclosed and sourced from SEC Form 4 filings. Nothing here constitutes financial advice.
 
 ## License
 

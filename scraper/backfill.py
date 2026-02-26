@@ -2,9 +2,9 @@
 """
 One-time historical backfill for Insider Radar.
 
-Uses the correct OpenInsider screener URL (provided by user):
+Fetches data using the screener API:
   fd=730    → last 730 days (~2 years)
-  vl=50     → minimum value $50K  (OpenInsider uses $K units)
+  vl=50     → minimum value $50K  ($K units)
   page=N    → page-based pagination (1 … MAX_PAGES)
   cnt=1000  → 1000 rows per page
 
@@ -119,7 +119,7 @@ def fetch_page(page: int) -> list[dict]:
 
     # In-code safety filter (server params may not be 100% reliable)
     trades = [t for t in trades if t["trade_type"].startswith("P")]
-    INT32_MAX = 2_147_483_647  # OpenInsider overflow sentinel — exclude
+    INT32_MAX = 2_147_483_647  # Overflow sentinel — exclude
     trades = [t for t in trades if MIN_TRADE_VALUE <= parse_value(t["value"]) < INT32_MAX]
     return trades
 
@@ -139,7 +139,7 @@ def main() -> None:
             break
 
         all_fetched.extend(rows)
-        time.sleep(1)   # be polite to OpenInsider
+        time.sleep(1)   # be polite to the server
 
     if not all_fetched:
         print("Nothing fetched.")

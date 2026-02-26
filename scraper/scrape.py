@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Insider Radar - OpenInsider Scraper
-Scrapes open market purchases from openinsider.com and saves to data files.
+Insider Radar - SEC Form 4 Scraper
+Scrapes open market purchases from SEC Form 4 filings and saves to data files.
 """
 
 import csv
@@ -121,7 +121,7 @@ def parse_time(text: str) -> str:
 # ---------------------------------------------------------------------------
 
 def fetch_trades() -> list[dict]:
-    """Fetch and parse insider trades from openinsider.com."""
+    """Fetch and parse insider trades."""
     print(f"Fetching data from {BASE_URL} ...")
     try:
         resp = requests.get(BASE_URL, params=PARAMS, headers=HEADERS, timeout=30)
@@ -147,7 +147,7 @@ def fetch_trades() -> list[dict]:
         if len(cells) < 16:
             continue
 
-        # Column indices (0-based) from openinsider screener table:
+        # Column indices (0-based) from screener table:
         # 0: X (checkbox), 1: Filing Date, 2: Trade Date, 3: Ticker, 4: Company Name
         # 5: Insider Name, 6: Title, 7: Trade Type, 8: Price, 9: Qty, 10: Owned
         # 11: ΔOwn, 12: Value, 13: 1d, 14: 1w, 15: 1m, 16: 6m
@@ -299,7 +299,7 @@ def save_history_csv(new_trades: list[dict]) -> int:
 
 def save_latest_json(trades: list[dict]) -> None:
     """Save the most recent HISTORY_DAYS of trades to latest.json (overwrite)."""
-    INT32_MAX = 2_147_483_647  # OpenInsider overflow sentinel — exclude
+    INT32_MAX = 2_147_483_647  # Overflow sentinel — exclude
     cutoff = (datetime.utcnow() - timedelta(days=HISTORY_DAYS)).strftime("%Y-%m-%d")
     filtered = [
         t for t in trades
