@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-27T02:12:35Z",
-  "trade_count": 5001,
+  "last_updated": "2026-02-27T05:15:30Z",
+  "trade_count": 5002,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -80016,6 +80016,22 @@
       "owned": "3170394",
       "delta_own": "+5%",
       "value": "51040",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-02-26",
+      "filing_time": "21:11",
+      "trade_date": "2026-02-24",
+      "ticker": "CMTG",
+      "company": "Claros Mortgage Trust, Inc.",
+      "insider_name": "Walter W Edward",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "2.28",
+      "qty": "25000",
+      "owned": "71475",
+      "delta_own": "+54%",
+      "value": "56895",
       "cluster_buy": false
     }
   ]
