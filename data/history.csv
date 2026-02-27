@@ -4991,3 +4991,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-02-26,16:30,2026-02-24,VNO,Vornado Realty Trust,Tisch Daniel R,Dir,P - Purchase,27.85,25000,30000,+500%,696250,False
 2026-02-26,16:26,2026-02-24,LEE,"Lee Enterprises, Inc",Hoffmann David Henry,"Dir, 10%",P - Purchase,8.84,44110,11636149,0%,390078,False
 2026-02-26,16:16,2026-02-24,AMH,American Homes 4 Rent,Goldberg David,Dir,P - Purchase,29.17,2000,61419,+3%,58340,True
+2026-02-26,20:42,2026-02-26,LOGC,Contextlogic Holdings Inc.,Bobbili Raja,"Dir, 10%",P - Purchase,7.00,1758794,18269534,+11%,12311558,True
+2026-02-26,20:37,2026-02-26,LOGC,Contextlogic Holdings Inc.,"Abrams Capital Management, L.P.",10%,P - Purchase,7.00,1758794,18269534,+11%,12311558,True
+2026-02-26,20:36,2026-02-26,LOGC,Contextlogic Holdings Inc.,Abrams David C,"Dir, 10%",P - Purchase,7.00,1758794,18269534,+11%,12311558,True
+2026-02-26,19:38,2026-02-23,CADL,"Candel Therapeutics, Inc.",Manning Paul B,Dir,P - Purchase,5.45,550458,5748279,+11%,2999996,False
+2026-02-26,18:40,2026-02-25,MWA,"Mueller Water Products, Inc.",Sengstack Gregg C,Dir,P - Purchase,29.58,25000,25000,New,739415,False
+2026-02-26,17:52,2026-02-25,AAT,"American Assets Trust, Inc.",Rady Ernest S,"Exec COB, 10%",P - Purchase,19.78,10748,13033083,0%,212583,False
+2026-02-26,17:50,2026-02-20,AAT,"American Assets Trust, Inc.",Rady Ernest S,"Exec COB, 10%",P - Purchase,19.42,79386,13022335,+1%,1541880,False
+2026-02-26,17:48,2026-02-24,OFIX,Orthofix Medical Inc.,"Engine Capital Management, LP",10%,P - Purchase,12.59,137858,4390779,+3%,1734956,False
+2026-02-26,17:35,2026-02-24,APCX,Apptech Payments Corp.,Lord Albert L,Dir,P - Purchase,0.34,150000,3170394,+5%,51040,False
