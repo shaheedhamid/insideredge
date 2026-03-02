@@ -5025,3 +5025,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-02-27,20:20,2026-02-27,REXR,"Rexford Industrial Realty, Inc.",Stockert David P,Dir,P - Purchase,37.39,5000,6829,+273%,186958,True
 2026-02-27,20:19,2026-02-27,REXR,"Rexford Industrial Realty, Inc.",Fitzmaurice Michael,CFO,P - Purchase,37.55,2650,14133,+23%,99508,True
 2026-03-02,06:10,2026-02-26,FOUR,"Shift4 Payments, Inc.",Isaacman Jared,10%,P - Purchase,46.11,296237,23197031,+1%,13658260,False
+2026-03-02,09:13,2026-02-27,BWFG,"Bankwell Financial Group, Inc.",Seidman Lawrence B,Dir,P - Purchase,46.80,2520,804648,0%,117926,False
+2026-03-02,08:39,2026-02-27,BCHT,Birchtech Corp.,Macpherson Richard,"Pres, CEO, 10%",P - Purchase,2.40,312500,2955095,+12%,750000,False
+2026-03-02,08:00,2026-02-27,PVLA,"Palvella Therapeutics, Inc.",Jenkins George M,Dir,P - Purchase,125.00,4000,200687,+2%,500000,True
+2026-03-02,08:00,2026-02-27,PVLA,"Palvella Therapeutics, Inc.",Heron Elaine J,Dir,P - Purchase,125.00,2400,53691,+5%,300000,True
