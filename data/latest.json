@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-02T10:33:37Z",
-  "trade_count": 5025,
+  "last_updated": "2026-03-02T12:30:48Z",
+  "trade_count": 5026,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -80401,6 +80401,22 @@
       "delta_own": "+23%",
       "value": "99508",
       "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-02",
+      "filing_time": "06:10",
+      "trade_date": "2026-02-26",
+      "ticker": "FOUR",
+      "company": "Shift4 Payments, Inc.",
+      "insider_name": "Isaacman Jared",
+      "title": "10%",
+      "trade_type": "P - Purchase",
+      "price": "46.11",
+      "qty": "296237",
+      "owned": "23197031",
+      "delta_own": "+1%",
+      "value": "13658260",
+      "cluster_buy": false
     }
   ]
 }
