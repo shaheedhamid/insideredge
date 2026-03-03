@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-03T14:35:27Z",
-  "trade_count": 5061,
+  "last_updated": "2026-03-03T16:33:21Z",
+  "trade_count": 5062,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -80160,7 +80160,7 @@
       "owned": "167674",
       "delta_own": "+15%",
       "value": "1033370",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-02-27",
@@ -80977,6 +80977,22 @@
       "delta_own": "+7%",
       "value": "120720",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "10:19",
+      "trade_date": "2026-03-02",
+      "ticker": "SKWD",
+      "company": "Skyward Specialty Insurance Group, Inc.",
+      "insider_name": "Peirce Christopher Locke",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "47.30",
+      "qty": "3200",
+      "owned": "3200",
+      "delta_own": "New",
+      "value": "151360",
+      "cluster_buy": true
     }
   ]
 }
