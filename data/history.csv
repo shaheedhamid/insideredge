@@ -5063,3 +5063,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-03,10:19,2026-03-02,SKWD,"Skyward Specialty Insurance Group, Inc.",Peirce Christopher Locke,Dir,P - Purchase,47.30,3200,3200,New,151360,True
 2026-03-03,11:47,2026-03-02,LEE,"Lee Enterprises, Inc",Quint Digital Ltd,10%,P - Purchase,8.87,20454,3234800,+1%,181512,True
 2026-03-03,13:54,2026-02-27,LEE,"Lee Enterprises, Inc",Hoffmann David Henry,"Dir, 10%",P - Purchase,9.04,53200,11689349,0%,480662,True
+2026-03-03,16:26,2026-03-02,BLCO,Bausch & Lomb Corp,Alfonso Eduardo,Dir,P - Purchase,17.90,4300,13855,+45%,76970,True
+2026-03-03,16:24,2026-02-27,BLCO,Bausch & Lomb Corp,Von Eschenbach Andrew C.,Dir,P - Purchase,18.31,4364,70814,+7%,79883,True
+2026-03-03,16:20,2026-02-27,VNO,Vornado Realty Trust,Tisch Daniel R,Dir,P - Purchase,26.91,155000,185000,+517%,4171000,False
+2026-03-03,16:15,2026-02-02,ENR,"Energizer Holdings, Inc.","Aqua Capital, Ltd.",10%,P - Purchase,22.47,5000,7005000,0%,112360,False
+2026-03-03,16:15,2026-03-02,WD,"Walker & Dunlop, Inc.",Walker William M,"COB, CEO",P - Purchase,47.46,10000,1040960,+1%,474632,False
+2026-03-03,16:13,2026-02-27,ABSI,Absci Corp,Pangalos Menelas N,Dir,P - Purchase,2.74,75095,189055,+66%,205760,False
+2026-03-03,16:09,2026-03-02,CSGP,"Costar Group, Inc.",Saint Frederick G.,"Pres, Marketplaces",P - Purchase,45.33,20000,279851,+8%,906600,True
+2026-03-03,16:05,2026-02-24,NOMA,Nomadar Corp.,Sport City Cadiz S.L.,10%,P - Purchase,4.66,415935,7648946,+6%,1938257,False
+2026-03-03,16:05,2026-02-27,TCBI,Texas Capital Bancshares Inc/Tx,Stallings Robert W,Dir,P - Purchase,30.77,28330,908830,+3%,871734,False
