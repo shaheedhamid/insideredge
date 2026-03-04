@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-04T13:58:01Z",
-  "trade_count": 5101,
+  "last_updated": "2026-03-04T14:42:32Z",
+  "trade_count": 5102,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -81617,6 +81617,22 @@
       "delta_own": "+7%",
       "value": "90600",
       "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-04",
+      "filing_time": "09:40",
+      "trade_date": "2026-03-03",
+      "ticker": "FMNB",
+      "company": "Farmers National Banc Corp /Oh/",
+      "insider_name": "Muransky Edward",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "12.74",
+      "qty": "40000",
+      "owned": "309626",
+      "delta_own": "+15%",
+      "value": "509600",
+      "cluster_buy": false
     }
   ]
 }
