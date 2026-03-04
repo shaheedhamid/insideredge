@@ -5111,3 +5111,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-04,16:08,2026-03-02,POOL,Pool Corp,Perez De La Mesa Manuel J,Dir,P - Purchase,218.00,5000,933155,+1%,1090000,True
 2026-03-04,16:06,2026-03-03,RUN,Sunrun Inc.,Ferber Alan,Dir,P - Purchase,11.92,12500,87134,+17%,149029,False
 2026-03-04,16:05,2026-03-02,ACOG,Alpha Cognition Inc.,Opaleye Management Inc.,10%,P - Purchase,5.76,71411,2440049,+3%,411624,False
+2026-03-04,16:54,2026-03-04,MORN,"Morningstar, Inc.",Holt Michael,CFO,P - Purchase,186.59,1000,9480,+12%,186590,False
+2026-03-04,16:49,2026-03-03,DUOL,"Duolingo, Inc.",Shelton James H,Dir,P - Purchase,99.76,5000,9632,+108%,498792,False
+2026-03-04,16:48,2026-03-03,AXR,Amrep Corp.,Dahl James H,10%,P - Purchase,25.69,3200,967419,0%,82220,False
+2026-03-04,16:35,2026-03-02,GLIBK,"Gci Liberty, Inc.",Malone John C,"Dir, 10%",P - Purchase,43.29,1834,372935,0%,79394,False
