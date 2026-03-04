@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-03T23:26:04Z",
-  "trade_count": 5087,
+  "last_updated": "2026-03-04T01:57:10Z",
+  "trade_count": 5096,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -992,7 +992,7 @@
       "owned": "949016",
       "delta_own": "+2%",
       "value": "252902",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-02-23",
@@ -80032,7 +80032,7 @@
       "owned": "71475",
       "delta_own": "+54%",
       "value": "56895",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-02-27",
@@ -80912,7 +80912,7 @@
       "owned": "7924265",
       "delta_own": "+1%",
       "value": "143850",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-03-02",
@@ -81248,7 +81248,7 @@
       "owned": "5000",
       "delta_own": "New",
       "value": "67345",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-03-03",
@@ -81392,6 +81392,150 @@
       "owned": "1367674",
       "delta_own": "+58%",
       "value": "301050",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "20:00",
+      "trade_date": "2026-03-02",
+      "ticker": "WRB",
+      "company": "Berkley W R Corp",
+      "insider_name": "Mitsui Sumitomo Insurance Co Ltd",
+      "title": "10%",
+      "trade_type": "P - Purchase",
+      "price": "72.61",
+      "qty": "258176",
+      "owned": "58780450",
+      "delta_own": "0%",
+      "value": "18745005",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:46",
+      "trade_date": "2026-02-27",
+      "ticker": "HBAN",
+      "company": "Huntington Bancshares Inc /Md/",
+      "insider_name": "Rollins James D III",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "23.14",
+      "qty": "7373",
+      "owned": "7373",
+      "delta_own": "New",
+      "value": "170617",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:37",
+      "trade_date": "2026-03-03",
+      "ticker": "BH",
+      "company": "Biglari Holdings Inc.",
+      "insider_name": "Biglari, Sardar",
+      "title": "COB, CEO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "331.15",
+      "qty": "1146",
+      "owned": "1563190",
+      "delta_own": "0%",
+      "value": "379498",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:33",
+      "trade_date": "2026-02-27",
+      "ticker": "LAW",
+      "company": "Cs Disco, Inc.",
+      "insider_name": "Goodman Robert P",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "3.19",
+      "qty": "1026700",
+      "owned": "1079980",
+      "delta_own": ">999%",
+      "value": "3275173",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:30",
+      "trade_date": "2026-03-02",
+      "ticker": "UUU",
+      "company": "Universal Safety Products, Inc.",
+      "insider_name": "Ault Milton C III",
+      "title": "Dir, 10%",
+      "trade_type": "P - Purchase",
+      "price": "4.82",
+      "qty": "27000",
+      "owned": "535330",
+      "delta_own": "+5%",
+      "value": "130162",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:26",
+      "trade_date": "2026-02-27",
+      "ticker": "CMTG",
+      "company": "Claros Mortgage Trust, Inc.",
+      "insider_name": "Mack Richard",
+      "title": "CEO, COB",
+      "trade_type": "P - Purchase",
+      "price": "2.41",
+      "qty": "50000",
+      "owned": "2717330",
+      "delta_own": "+2%",
+      "value": "120355",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "19:12",
+      "trade_date": "2026-03-02",
+      "ticker": "XRAY",
+      "company": "Dentsply Sirona Inc.",
+      "insider_name": "Lucier Gregory T",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "14.15",
+      "qty": "50000",
+      "owned": "95901",
+      "delta_own": "+109%",
+      "value": "707379",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "18:44",
+      "trade_date": "2026-03-02",
+      "ticker": "BBSI",
+      "company": "Barrett Business Services Inc",
+      "insider_name": "Finn Mark Steven",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "27.66",
+      "qty": "2000",
+      "owned": "17943",
+      "delta_own": "+13%",
+      "value": "55315",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-03",
+      "filing_time": "18:41",
+      "trade_date": "2026-02-27",
+      "ticker": "AHCO",
+      "company": "Adapthealth Corp.",
+      "insider_name": "Wolf Dale B",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "8.96",
+      "qty": "8000",
+      "owned": "118235",
+      "delta_own": "+7%",
+      "value": "71680",
       "cluster_buy": false
     }
   ]

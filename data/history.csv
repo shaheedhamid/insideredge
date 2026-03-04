@@ -5086,3 +5086,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-03,17:35,2026-02-27,AUPH,Aurinia Pharmaceuticals Inc.,Tang Kevin,Dir,P - Purchase,14.10,900000,12229500,+8%,12688806,False
 2026-03-03,17:32,2026-02-27,SABR,Sabre Corp,Constellation Software Inc,10%,P - Purchase,1.16,10634702,50157523,+27%,12341572,False
 2026-03-03,17:28,2026-03-02,AGL,"Agilon Health, Inc.",Shaker Benjamin,Chief Markets Officer,P - Purchase,0.60,500000,1367674,+58%,301050,False
+2026-03-03,20:00,2026-03-02,WRB,Berkley W R Corp,Mitsui Sumitomo Insurance Co Ltd,10%,P - Purchase,72.61,258176,58780450,0%,18745005,False
+2026-03-03,19:46,2026-02-27,HBAN,Huntington Bancshares Inc /Md/,Rollins James D III,Dir,P - Purchase,23.14,7373,7373,New,170617,False
+2026-03-03,19:37,2026-03-03,BH,Biglari Holdings Inc.,"Biglari, Sardar","COB, CEO, 10%",P - Purchase,331.15,1146,1563190,0%,379498,False
+2026-03-03,19:33,2026-02-27,LAW,"Cs Disco, Inc.",Goodman Robert P,Dir,P - Purchase,3.19,1026700,1079980,>999%,3275173,True
+2026-03-03,19:30,2026-03-02,UUU,"Universal Safety Products, Inc.",Ault Milton C III,"Dir, 10%",P - Purchase,4.82,27000,535330,+5%,130162,False
+2026-03-03,19:26,2026-02-27,CMTG,"Claros Mortgage Trust, Inc.",Mack Richard,"CEO, COB",P - Purchase,2.41,50000,2717330,+2%,120355,True
+2026-03-03,19:12,2026-03-02,XRAY,Dentsply Sirona Inc.,Lucier Gregory T,Dir,P - Purchase,14.15,50000,95901,+109%,707379,True
+2026-03-03,18:44,2026-03-02,BBSI,Barrett Business Services Inc,Finn Mark Steven,Dir,P - Purchase,27.66,2000,17943,+13%,55315,False
+2026-03-03,18:41,2026-02-27,AHCO,Adapthealth Corp.,Wolf Dale B,Dir,P - Purchase,8.96,8000,118235,+7%,71680,False
