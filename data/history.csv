@@ -5140,3 +5140,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-05,10:05,2026-03-03,DGICA,Donegal Group Inc,Donegal Mutual Insurance Co,10%,P - Purchase,17.63,9000,18689678,0%,158652,False
 2026-03-05,14:44,2026-03-04,MIAX,"Miami International Holdings, Inc.",Stahl Murray,Dir,P - Purchase,43.38,7200,4696666,0%,312336,False
 2026-03-05,15:18,2026-03-04,HEI,Heico Corp,Cheruvatath Nandakumar,Dir,P - Purchase,244.95,4082,4422,>999%,999897,False
+2026-03-05,16:31,2026-03-03,CVSA,Covista Inc.,Malafronte Michael W,Lead Independent Director,P - Purchase,97.97,1200,102564,+1%,117564,False
+2026-03-05,16:30,2026-02-11,TECX,"Tectonic Therapeutic, Inc.",Reicin Alise,CEO,P - Purchase,21.10,2500,362077,+1%,52750,False
+2026-03-05,16:30,2026-03-03,SSP,E.W. Scripps Co,Granado Corina S.,10%,P - Purchase,3.96,329976,1027177,+47%,1308039,True
+2026-03-05,16:30,2026-03-03,SSP,E.W. Scripps Co,Granado Geraldine Scripps,10%,P - Purchase,3.91,40000,50116,+395%,156324,True
+2026-03-05,16:27,2026-03-04,HYMC,Hycroft Mining Holding Corp,Sprott Eric,10%,P - Purchase,47.58,100000,37003704,0%,4758000,False
+2026-03-05,16:16,2026-02-09,CAQ,Cambridge Acquisition Corp.,Cam-Phung Michael Tam,"Dir, 10%",P - Purchase,10.00,495500,495500,New,4955000,False
+2026-03-05,16:08,2026-03-04,LSAK,Lesaka Technologies Inc,Mazanderani Ali,Exec COB,P - Purchase,4.69,32000,2448538,+1%,150080,False
+2026-03-05,16:05,2026-03-03,TCBI,Texas Capital Bancshares Inc/Tx,Stallings Robert W,Dir,P - Purchase,22.24,45000,953830,+5%,1000950,False
+2026-03-05,16:05,2026-03-04,GPK,Graphic Packaging Holding Co,Venturelli Larry M,Dir,P - Purchase,11.36,17531,235089,+8%,199194,True
