@@ -5149,3 +5149,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-05,16:08,2026-03-04,LSAK,Lesaka Technologies Inc,Mazanderani Ali,Exec COB,P - Purchase,4.69,32000,2448538,+1%,150080,False
 2026-03-05,16:05,2026-03-03,TCBI,Texas Capital Bancshares Inc/Tx,Stallings Robert W,Dir,P - Purchase,22.24,45000,953830,+5%,1000950,False
 2026-03-05,16:05,2026-03-04,GPK,Graphic Packaging Holding Co,Venturelli Larry M,Dir,P - Purchase,11.36,17531,235089,+8%,199194,True
+2026-03-05,17:22,2026-03-04,TPC,Tutor Perini Corp,Smalley Gary G.,"CEO, Pres",P - Purchase,73.24,10000,91479,+12%,732372,False
+2026-03-05,17:00,2026-03-05,IHRT,"Iheartmedia, Inc.",Pittman Robert W,"COB, CEO",P - Purchase,3.25,32468,6236669,+1%,105576,False
+2026-03-05,16:59,2026-03-03,BA,Boeing Co,Buckley Mortimer J,Dir,P - Purchase,224.20,2230,4430,+101%,499966,False
+2026-03-05,16:49,2026-03-04,BALL,Ball Corp,Villatoro Fauze,"SVP, Pres South America",P - Purchase,64.51,1551,13778,+13%,100057,False

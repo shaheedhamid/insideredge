@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-05T21:33:47Z",
-  "trade_count": 5150,
+  "last_updated": "2026-03-05T22:30:22Z",
+  "trade_count": 5154,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -82401,6 +82401,70 @@
       "delta_own": "+8%",
       "value": "199194",
       "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-05",
+      "filing_time": "17:22",
+      "trade_date": "2026-03-04",
+      "ticker": "TPC",
+      "company": "Tutor Perini Corp",
+      "insider_name": "Smalley Gary G.",
+      "title": "CEO, Pres",
+      "trade_type": "P - Purchase",
+      "price": "73.24",
+      "qty": "10000",
+      "owned": "91479",
+      "delta_own": "+12%",
+      "value": "732372",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-05",
+      "filing_time": "17:00",
+      "trade_date": "2026-03-05",
+      "ticker": "IHRT",
+      "company": "Iheartmedia, Inc.",
+      "insider_name": "Pittman Robert W",
+      "title": "COB, CEO",
+      "trade_type": "P - Purchase",
+      "price": "3.25",
+      "qty": "32468",
+      "owned": "6236669",
+      "delta_own": "+1%",
+      "value": "105576",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-05",
+      "filing_time": "16:59",
+      "trade_date": "2026-03-03",
+      "ticker": "BA",
+      "company": "Boeing Co",
+      "insider_name": "Buckley Mortimer J",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "224.20",
+      "qty": "2230",
+      "owned": "4430",
+      "delta_own": "+101%",
+      "value": "499966",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-05",
+      "filing_time": "16:49",
+      "trade_date": "2026-03-04",
+      "ticker": "BALL",
+      "company": "Ball Corp",
+      "insider_name": "Villatoro Fauze",
+      "title": "SVP, Pres South America",
+      "trade_type": "P - Purchase",
+      "price": "64.51",
+      "qty": "1551",
+      "owned": "13778",
+      "delta_own": "+13%",
+      "value": "100057",
+      "cluster_buy": false
     }
   ]
 }
