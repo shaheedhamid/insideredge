@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T22:36:02Z",
+  "last_updated": "2026-03-06T23:34:32Z",
   "trade_count": 76,
   "currency": "CAD",
   "trades": [
@@ -212,7 +212,7 @@
       "cluster_buy": false
     },
     {
-      "filing_date": "2026-03-02",
+      "filing_date": "2026-03-06",
       "trade_date": "2026-02-26",
       "ticker": "EVR",
       "company": "Evolve Royalties Ltd.",

@@ -5178,3 +5178,6 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-06,16:55,2026-03-04,GENB,"Generate Biomedicines, Inc.",Nally Michael,CEO,P - Purchase,12.00,20000,2889154,+1%,240000,True
 2026-03-06,16:47,2026-03-06,ICFI,"Icf International, Inc.",Mehl Randall,Dir,P - Purchase,74.30,1100,21574,+5%,81730,False
 2026-03-06,16:39,2026-03-06,CSX,Csx Corp,Angel Stephen F,"Pres, CEO",P - Purchase,40.27,25000,148655,+20%,1006750,False
+2026-03-06,17:57,2026-03-05,MIAX,"Miami International Holdings, Inc.",Stahl Murray,Dir,P - Purchase,43.08,7200,4633842,0%,310176,False
+2026-03-06,17:52,2026-03-04,MIAX,"Miami International Holdings, Inc.",Stahl Murray,Dir,P - Purchase,43.38,7200,4626642,0%,312336,False
+2026-03-06,17:51,2026-03-06,BH,Biglari Holdings Inc.,"Biglari, Sardar","COB, CEO, 10%",P - Purchase,307.20,2441,1565631,0%,749875,False

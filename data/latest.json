@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-06T22:33:40Z",
-  "trade_count": 5179,
+  "last_updated": "2026-03-06T23:31:53Z",
+  "trade_count": 5182,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -82864,6 +82864,54 @@
       "owned": "148655",
       "delta_own": "+20%",
       "value": "1006750",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-06",
+      "filing_time": "17:57",
+      "trade_date": "2026-03-05",
+      "ticker": "MIAX",
+      "company": "Miami International Holdings, Inc.",
+      "insider_name": "Stahl Murray",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "43.08",
+      "qty": "7200",
+      "owned": "4633842",
+      "delta_own": "0%",
+      "value": "310176",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-06",
+      "filing_time": "17:52",
+      "trade_date": "2026-03-04",
+      "ticker": "MIAX",
+      "company": "Miami International Holdings, Inc.",
+      "insider_name": "Stahl Murray",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "43.38",
+      "qty": "7200",
+      "owned": "4626642",
+      "delta_own": "0%",
+      "value": "312336",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-06",
+      "filing_time": "17:51",
+      "trade_date": "2026-03-06",
+      "ticker": "BH",
+      "company": "Biglari Holdings Inc.",
+      "insider_name": "Biglari, Sardar",
+      "title": "COB, CEO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "307.20",
+      "qty": "2441",
+      "owned": "1565631",
+      "delta_own": "0%",
+      "value": "749875",
       "cluster_buy": false
     }
   ]
