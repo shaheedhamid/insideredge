@@ -1655,16 +1655,6 @@
   /* Bootstrap                                                             */
   /* ------------------------------------------------------------------ */
   fetchData();
-  });
-
-  document.getElementById('btn-ca').addEventListener('click', () => {
-    if (activeMarket === 'CA') return;
-    activeMarket = 'CA';
-    document.getElementById('btn-ca').classList.add('active');
-    fetchData();
-  });
-
-  fetchData();
   setInterval(fetchData, REFRESH_INTERVAL_MS);
 })();
 </script>
