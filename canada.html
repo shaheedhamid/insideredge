@@ -1291,7 +1291,7 @@
   function applyFilters(trades) {
     const { search, title, minValue, dateRange } = getFilters();
     let cutoff = null;
-    if (dateRange !== 'all') {
+    if (dateRange !== 'all' && !search) {
       const d = new Date();
       d.setDate(d.getDate() - parseInt(dateRange, 10));
       cutoff = d.toISOString().slice(0, 10);
