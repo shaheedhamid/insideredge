@@ -136,10 +136,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.17
+        "2026-03-07": 0.166
       },
-      "latest_price": 0.17,
-      "return_pct": 112.5,
+      "latest_price": 0.166,
+      "return_pct": 107.5,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -156,10 +156,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.9317
+        "2026-03-07": 0.932
       },
-      "latest_price": 0.9317,
-      "return_pct": 21.0,
+      "latest_price": 0.932,
+      "return_pct": 21.04,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -2036,10 +2036,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.7551
+        "2026-03-07": 0.755
       },
-      "latest_price": 0.7551,
-      "return_pct": -14.19,
+      "latest_price": 0.755,
+      "return_pct": -14.2,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -2516,10 +2516,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.625
+        "2026-03-07": 0.63
       },
-      "latest_price": 0.625,
-      "return_pct": 11.61,
+      "latest_price": 0.63,
+      "return_pct": 12.5,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -2816,10 +2816,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.6505
+        "2026-03-07": 0.651
       },
-      "latest_price": 0.6505,
-      "return_pct": 62.62,
+      "latest_price": 0.651,
+      "return_pct": 62.75,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -2856,10 +2856,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.6505
+        "2026-03-07": 0.651
       },
-      "latest_price": 0.6505,
-      "return_pct": 62.62,
+      "latest_price": 0.651,
+      "return_pct": 62.75,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -2876,10 +2876,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.6505
+        "2026-03-07": 0.651
       },
-      "latest_price": 0.6505,
-      "return_pct": 62.62,
+      "latest_price": 0.651,
+      "return_pct": 62.75,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -3016,10 +3016,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.6505
+        "2026-03-07": 0.651
       },
-      "latest_price": 0.6505,
-      "return_pct": 62.62,
+      "latest_price": 0.651,
+      "return_pct": 62.75,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -3194,10 +3194,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.2992
+        "2026-03-07": 0.2943
       },
-      "latest_price": 0.2992,
-      "return_pct": 49.6,
+      "latest_price": 0.2943,
+      "return_pct": 47.15,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -3214,10 +3214,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.2992
+        "2026-03-07": 0.2943
       },
-      "latest_price": 0.2992,
-      "return_pct": 49.6,
+      "latest_price": 0.2943,
+      "return_pct": 47.15,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -3254,10 +3254,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.2992
+        "2026-03-07": 0.2943
       },
-      "latest_price": 0.2992,
-      "return_pct": 49.6,
+      "latest_price": 0.2943,
+      "return_pct": 47.15,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -3274,10 +3274,10 @@
       "cluster_buy": true,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.2992
+        "2026-03-07": 0.2943
       },
-      "latest_price": 0.2992,
-      "return_pct": 49.6,
+      "latest_price": 0.2943,
+      "return_pct": 47.15,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -6080,10 +6080,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.295
+        "2026-03-07": 0.31
       },
-      "latest_price": 0.295,
-      "return_pct": -13.24,
+      "latest_price": 0.31,
+      "return_pct": -8.82,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -7198,10 +7198,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.8427
+        "2026-03-07": 0.843
       },
-      "latest_price": 0.8427,
-      "return_pct": 25.78,
+      "latest_price": 0.843,
+      "return_pct": 25.82,
       "last_snapshot": "2026-03-07"
     },
     {
@@ -7678,10 +7678,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-07": 0.5983
+        "2026-03-07": 0.598
       },
-      "latest_price": 0.5983,
-      "return_pct": -0.28,
+      "latest_price": 0.598,
+      "return_pct": -0.33,
       "last_snapshot": "2026-03-07"
     },
     {
