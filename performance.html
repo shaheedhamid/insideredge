@@ -378,7 +378,7 @@
     @media (max-width: 900px) {
       .topbar { display: none; }
       header { padding: 0 16px; }
-      .header-center { display: none; }
+      #last-updated { display: none !important; }
       .brand-tagline { display: none; }
       .stats { grid-template-columns: repeat(2, 1fr); }
       .filters-wrap { padding: 12px 16px; }
@@ -419,10 +419,6 @@
   </div>
 
   <div class="header-center">
-    <span id="last-updated" style="font-size:11px;color:var(--muted)">Loading…</span>
-  </div>
-
-  <div class="header-right">
     <div class="market-nav">
       <a href="index.html" class="market-nav-btn">
         <svg viewBox="0 0 20 13" width="20" height="13" style="border-radius:2px;flex-shrink:0" xmlns="http://www.w3.org/2000/svg">
@@ -450,6 +446,10 @@
         Performance
       </a>
     </div>
+    <span id="last-updated" style="font-size:11px;color:var(--muted)">Loading…</span>
+  </div>
+
+  <div class="header-right">
     <a href="https://discord.gg/k6Q5rtEPe" target="_blank" rel="noopener noreferrer" class="btn-discord">
       <svg width="16" height="16" viewBox="0 0 127.14 96.36" fill="currentColor" aria-hidden="true">
         <path d="M107.7,8.07A105.15,105.15,0,0,0,81.47,0a72.06,72.06,0,0,0-3.36,6.83A97.68,97.68,0,0,0,49,6.83,72.37,72.37,0,0,0,45.64,0,105.89,105.89,0,0,0,19.39,8.09C2.79,32.65-1.71,56.6.54,80.21h0A105.73,105.73,0,0,0,32.71,96.36,77.7,77.7,0,0,0,39.6,85.25a68.42,68.42,0,0,1-10.85-5.18c.91-.66,1.8-1.34,2.66-2a75.57,75.57,0,0,0,64.32,0c.87.71,1.76,1.39,2.66,2a68.68,68.68,0,0,1-10.87,5.19,77,77,0,0,0,6.89,11.1A105.25,105.25,0,0,0,126.6,80.22h0C129.24,52.84,122.09,29.11,107.7,8.07ZM42.45,65.69C36.18,65.69,31,60,31,53s5-12.74,11.43-12.74S54,46,53.89,53,48.84,65.69,42.45,65.69Zm42.24,0C78.41,65.69,73.25,60,73.25,53s5-12.74,11.44-12.74S96.23,46,96.12,53,91.08,65.69,84.69,65.69Z"/>
@@ -537,14 +537,6 @@
     </div>
   </div>
 
-  <div class="filter-group">
-    <span class="filter-label">Market</span>
-    <div class="btn-range-group" id="market-filter-group">
-      <button class="btn-range active" data-market="all">All</button>
-      <button class="btn-range" data-market="US">🇺🇸 US</button>
-      <button class="btn-range" data-market="CA">🇨🇦 Canada</button>
-    </div>
-  </div>
 
   <div class="filter-group">
     <span class="filter-label">Sort</span>
@@ -595,8 +587,6 @@
           <th data-col="latest_price">Current Price<i class="sort-arrow"></i></th>
           <th data-col="return_pct">Return %<i class="sort-arrow"></i></th>
           <th data-col="value">Value<i class="sort-arrow"></i></th>
-          <th>Market</th>
-          <th>Signal</th>
         </tr>
       </thead>
       <tbody id="table-body">
@@ -637,7 +627,6 @@
   let allEntries = [];
   let sortCol    = 'return_pct';
   let sortDir    = 'desc';
-  let marketFilter = 'all';
   let statusFilter = 'all';
   let search       = '';
 
@@ -650,7 +639,6 @@
   const noResultsEl     = document.getElementById('no-results');
   const searchInputEl   = document.getElementById('search-input');
   const tableEl         = document.getElementById('perf-table');
-  const marketGroupEl   = document.getElementById('market-filter-group');
   const sortGroupEl     = document.getElementById('sort-group');
   const statusGroupEl   = document.getElementById('status-filter-group');
   const btnReset        = document.getElementById('btn-reset');
@@ -703,7 +691,6 @@
   /* ------------------------------------------------------------------ */
   function applyFilters(entries) {
     return entries.filter(e => {
-      if (marketFilter !== 'all' && e.market !== marketFilter) return false;
       if (statusFilter === 'winning' && (e.return_pct === null || e.return_pct <= 0)) return false;
       if (statusFilter === 'losing'  && (e.return_pct === null || e.return_pct >= 0)) return false;
       if (statusFilter === 'pending' && e.return_pct !== null) return false;
@@ -762,8 +749,6 @@
     }
     noResultsEl.style.display = 'none';
 
-    const clusterBadge = '<span class="badge-cluster">&#9650; Cluster</span>';
-
     const rows = sorted.map((e, i) => {
       const ret = e.return_pct;
       let returnHTML;
@@ -775,9 +760,6 @@
         returnHTML = `<span class="td-return ${cls}">${arrow} ${formatReturn(ret)}</span>`;
       }
 
-      const marketCls  = e.market === 'US' ? 'us' : 'ca';
-      const marketLabel = e.market === 'US' ? '🇺🇸 US' : '🇨🇦 CA';
-
       return `<tr>
         <td class="td-rank">${i + 1}</td>
         <td class="td-ticker">${escHtml(e.ticker)}</td>
@@ -788,8 +770,6 @@
         <td class="td-price">${e.latest_price !== null ? formatPrice(e.latest_price, e.currency) : '<span class="badge-pending">Pending</span>'}</td>
         <td>${returnHTML}</td>
         <td class="td-value">${formatCurrency(e.value, e.currency)}</td>
-        <td><span class="badge-market ${marketCls}">${marketLabel}</span></td>
-        <td>${e.cluster_buy ? clusterBadge : ''}</td>
       </tr>`;
     });
 
@@ -825,15 +805,6 @@
     renderTable();
   }, 250));
 
-  marketGroupEl.querySelectorAll('.btn-range').forEach(btn => {
-    btn.addEventListener('click', () => {
-      marketFilter = btn.dataset.market;
-      marketGroupEl.querySelectorAll('.btn-range').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      renderTable();
-    });
-  });
-
   sortGroupEl.querySelectorAll('.btn-range').forEach(btn => {
     btn.addEventListener('click', () => {
       sortCol = btn.dataset.sort;
@@ -859,11 +830,9 @@
   btnReset.addEventListener('click', () => {
     searchInputEl.value = '';
     search       = '';
-    marketFilter = 'all';
     statusFilter = 'all';
     sortCol      = 'return_pct';
     sortDir      = 'desc';
-    marketGroupEl.querySelectorAll('.btn-range').forEach(b => b.classList.toggle('active', b.dataset.market === 'all'));
     statusGroupEl.querySelectorAll('.btn-range').forEach(b => b.classList.toggle('active', b.dataset.status === 'all'));
     sortGroupEl.querySelectorAll('.btn-range').forEach(b => b.classList.toggle('active', b.dataset.sort === 'return_pct'));
     tableEl.querySelectorAll('th').forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
