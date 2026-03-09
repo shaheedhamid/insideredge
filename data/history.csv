@@ -5218,3 +5218,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-09,18:12,2025-03-04,BHVN,Biohaven Ltd.,Childs John W,Dir,P - Purchase,30.43,28400,2397141,+1%,864115,False
 2026-03-09,18:08,2026-03-06,GO,Grocery Outlet Holding Corp.,Bachman John E.,Dir,P - Purchase,6.46,16000,73367,+28%,103314,False
 2026-03-09,18:00,2026-03-05,UUU,"Universal Safety Products, Inc.",Ault Milton C III,"Dir, 10%",P - Purchase,5.18,28892,573532,+5%,149572,False
+2026-03-09,19:19,2026-03-05,PRCT,Procept Biorobotics Corp,Desai Antal Rohit,Dir,P - Purchase,24.59,426262,475777,+861%,10482943,False
+2026-03-09,19:03,2026-03-09,MYGN,Myriad Genetics Inc,Raha Samraat S.,"Pres, CEO",P - Purchase,5.00,40000,493104,+9%,199844,False
+2026-03-09,18:53,2026-03-05,TTEC,"Ttec Holdings, Inc.",Holtzman Marc,Dir,P - Purchase,2.55,73056,246545,+42%,186215,False
+2026-03-09,18:41,2026-03-09,BH,Biglari Holdings Inc.,"Biglari, Sardar","COB, CEO, 10%",P - Purchase,301.06,3320,1568951,0%,999519,False

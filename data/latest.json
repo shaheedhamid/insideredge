@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-09T22:34:28Z",
-  "trade_count": 5219,
+  "last_updated": "2026-03-09T23:32:54Z",
+  "trade_count": 5223,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -80176,7 +80176,7 @@
       "owned": "315070",
       "delta_own": "+50%",
       "value": "494722",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-02-27",
@@ -83504,6 +83504,70 @@
       "owned": "573532",
       "delta_own": "+5%",
       "value": "149572",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "19:19",
+      "trade_date": "2026-03-05",
+      "ticker": "PRCT",
+      "company": "Procept Biorobotics Corp",
+      "insider_name": "Desai Antal Rohit",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "24.59",
+      "qty": "426262",
+      "owned": "475777",
+      "delta_own": "+861%",
+      "value": "10482943",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "19:03",
+      "trade_date": "2026-03-09",
+      "ticker": "MYGN",
+      "company": "Myriad Genetics Inc",
+      "insider_name": "Raha Samraat S.",
+      "title": "Pres, CEO",
+      "trade_type": "P - Purchase",
+      "price": "5.00",
+      "qty": "40000",
+      "owned": "493104",
+      "delta_own": "+9%",
+      "value": "199844",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:53",
+      "trade_date": "2026-03-05",
+      "ticker": "TTEC",
+      "company": "Ttec Holdings, Inc.",
+      "insider_name": "Holtzman Marc",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "2.55",
+      "qty": "73056",
+      "owned": "246545",
+      "delta_own": "+42%",
+      "value": "186215",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:41",
+      "trade_date": "2026-03-09",
+      "ticker": "BH",
+      "company": "Biglari Holdings Inc.",
+      "insider_name": "Biglari, Sardar",
+      "title": "COB, CEO, 10%",
+      "trade_type": "P - Purchase",
+      "price": "301.06",
+      "qty": "3320",
+      "owned": "1568951",
+      "delta_own": "0%",
+      "value": "999519",
       "cluster_buy": false
     }
   ]
