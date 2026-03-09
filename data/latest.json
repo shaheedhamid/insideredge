@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-09T03:45:05Z",
-  "trade_count": 5183,
+  "last_updated": "2026-03-09T11:37:28Z",
+  "trade_count": 5187,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -82929,6 +82929,70 @@
       "delta_own": "+23%",
       "value": "266000",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "07:00",
+      "trade_date": "2026-03-06",
+      "ticker": "ALT",
+      "company": "Altimmune, Inc.",
+      "insider_name": "Durso Jerome Benedict",
+      "title": "Pres, CEO",
+      "trade_type": "P - Purchase",
+      "price": "3.54",
+      "qty": "20000",
+      "owned": "32500",
+      "delta_own": "+160%",
+      "value": "70790",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "06:30",
+      "trade_date": "2026-03-05",
+      "ticker": "ABTC",
+      "company": "American Bitcoin Corp.",
+      "insider_name": "Busch Richard",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "1.15",
+      "qty": "68000",
+      "owned": "1398975",
+      "delta_own": "+5%",
+      "value": "78200",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "06:01",
+      "trade_date": "2026-03-05",
+      "ticker": "QSI",
+      "company": "Quantum-Si Inc",
+      "insider_name": "Kummeth Charles R.",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "0.92",
+      "qty": "500000",
+      "owned": "855000",
+      "delta_own": "+141%",
+      "value": "459800",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "06:01",
+      "trade_date": "2026-03-05",
+      "ticker": "QSI",
+      "company": "Quantum-Si Inc",
+      "insider_name": "Dowdy Paula",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "0.95",
+      "qty": "109890",
+      "owned": "269107",
+      "delta_own": "+69%",
+      "value": "104450",
+      "cluster_buy": true
     }
   ]
 }
