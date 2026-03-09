@@ -5186,3 +5186,5 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-09,06:30,2026-03-05,ABTC,American Bitcoin Corp.,Busch Richard,Dir,P - Purchase,1.15,68000,1398975,+5%,78200,True
 2026-03-09,06:01,2026-03-05,QSI,Quantum-Si Inc,Kummeth Charles R.,Dir,P - Purchase,0.92,500000,855000,+141%,459800,True
 2026-03-09,06:01,2026-03-05,QSI,Quantum-Si Inc,Dowdy Paula,Dir,P - Purchase,0.95,109890,269107,+69%,104450,True
+2026-03-09,08:54,2026-03-06,EXE,Expand Energy Corp,Wichterich Michael,"Interim Pres, CEO",P - Purchase,107.50,2000,83498,+2%,215000,False
+2026-03-09,08:40,2026-03-06,AIRS,"Airsculpt Technologies, Inc.",Chernett Jorey,10%,P - Purchase,2.00,45600,6398211,+1%,91200,False
