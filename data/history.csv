@@ -5214,3 +5214,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-09,17:14,2026-03-06,FFIN,First Financial Bankshares Inc,Davis Sally Pope,Dir,P - Purchase,29.52,1800,10371,+21%,53136,True
 2026-03-09,17:08,2026-03-05,BRCC,Brc Inc.,Taslitz Steven,Dir,P - Purchase,0.75,300000,2637387,+13%,223500,False
 2026-03-09,16:42,2026-03-06,ABG,Asbury Automotive Group Inc,Hult David W,"Pres, CEO",P - Purchase,205.34,5000,90683,+6%,1026706,False
+2026-03-09,18:12,2026-03-06,COTY,Coty Inc.,Von Bretten Gordon,Pres - Consumer Beauty,P - Purchase,2.41,83000,986620,+9%,200287,False
+2026-03-09,18:12,2025-03-04,BHVN,Biohaven Ltd.,Childs John W,Dir,P - Purchase,30.43,28400,2397141,+1%,864115,False
+2026-03-09,18:08,2026-03-06,GO,Grocery Outlet Holding Corp.,Bachman John E.,Dir,P - Purchase,6.46,16000,73367,+28%,103314,False
+2026-03-09,18:00,2026-03-05,UUU,"Universal Safety Products, Inc.",Ault Milton C III,"Dir, 10%",P - Purchase,5.18,28892,573532,+5%,149572,False

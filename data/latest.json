@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-09T21:37:42Z",
-  "trade_count": 5215,
+  "last_updated": "2026-03-09T22:34:28Z",
+  "trade_count": 5219,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -83440,6 +83440,70 @@
       "owned": "90683",
       "delta_own": "+6%",
       "value": "1026706",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:12",
+      "trade_date": "2026-03-06",
+      "ticker": "COTY",
+      "company": "Coty Inc.",
+      "insider_name": "Von Bretten Gordon",
+      "title": "Pres - Consumer Beauty",
+      "trade_type": "P - Purchase",
+      "price": "2.41",
+      "qty": "83000",
+      "owned": "986620",
+      "delta_own": "+9%",
+      "value": "200287",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:12",
+      "trade_date": "2025-03-04",
+      "ticker": "BHVN",
+      "company": "Biohaven Ltd.",
+      "insider_name": "Childs John W",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "30.43",
+      "qty": "28400",
+      "owned": "2397141",
+      "delta_own": "+1%",
+      "value": "864115",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:08",
+      "trade_date": "2026-03-06",
+      "ticker": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "Bachman John E.",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "6.46",
+      "qty": "16000",
+      "owned": "73367",
+      "delta_own": "+28%",
+      "value": "103314",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-09",
+      "filing_time": "18:00",
+      "trade_date": "2026-03-05",
+      "ticker": "UUU",
+      "company": "Universal Safety Products, Inc.",
+      "insider_name": "Ault Milton C III",
+      "title": "Dir, 10%",
+      "trade_type": "P - Purchase",
+      "price": "5.18",
+      "qty": "28892",
+      "owned": "573532",
+      "delta_own": "+5%",
+      "value": "149572",
       "cluster_buy": false
     }
   ]
