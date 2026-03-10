@@ -5237,3 +5237,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-10,14:22,2026-03-06,EML,Eastern Co,Mitarotonda James A,"Dir, 10%",P - Purchase,18.43,7409,685136,+1%,136554,False
 2026-03-10,14:16,2026-03-09,ROCK,"Gibraltar Industries, Inc.",Bosway William T,"Pres, CEO",P - Purchase,38.60,6000,229585,+3%,231593,False
 2026-03-10,15:39,2026-03-10,MLAB,Mesa Laboratories Inc /Co/,Tripeny R Tony,Dir,P - Purchase,76.00,1315,5398,+32%,99940,False
+2026-03-10,16:34,2026-03-06,BLCO,Bausch & Lomb Corp,Eldessouky Sam,"EVP, CFO",P - Purchase,17.13,4000,407130,+1%,68520,True
+2026-03-10,16:32,2026-03-06,BLCO,Bausch & Lomb Corp,Saunders Brent L,"CEO, COB",P - Purchase,17.14,14700,981275,+2%,251958,True
+2026-03-10,16:21,2026-03-06,WAT,Waters Corp /De/,Fearon Richard H,Dir,P - Purchase,306.34,1000,3302,+43%,306340,False
+2026-03-10,16:21,2026-03-06,LEE,"Lee Enterprises, Inc",Hoffmann David Henry,"Dir, 10%",P - Purchase,9.16,74600,11801949,+1%,683072,True
+2026-03-10,16:19,2026-03-06,ST,Sensata Technologies Holding Plc,Von Schuckmann Stephan,CEO,P - Purchase,33.11,15150,118938,+15%,501671,False
+2026-03-10,16:13,2026-03-09,OFIX,Orthofix Medical Inc.,Capps Vickie L,Dir,P - Purchase,12.46,5000,27585,+22%,62324,False
+2026-03-10,16:11,2026-03-10,FSS,Federal Signal Corp /De/,Maue Richard A,Dir,P - Purchase,110.77,2000,2000,New,221532,False
+2026-03-10,16:08,2026-03-09,CORZ,"Core Scientific, Inc./Tx",Weiss Eric Stanton,Dir,P - Purchase,14.53,7000,252262,+3%,101700,False
+2026-03-10,15:46,2026-03-10,MLAB,Mesa Laboratories Inc /Co/,Capone Mark Christopher,Dir,P - Purchase,76.35,1301,3429,+61%,99331,True
