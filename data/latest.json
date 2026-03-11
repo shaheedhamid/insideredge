@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-11T16:58:31Z",
-  "trade_count": 5275,
+  "last_updated": "2026-03-11T17:54:56Z",
+  "trade_count": 5277,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -84401,6 +84401,38 @@
       "delta_own": "+31%",
       "value": "105996",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-11",
+      "filing_time": "13:49",
+      "trade_date": "2026-03-11",
+      "ticker": "AMRZ",
+      "company": "Amrize Ltd",
+      "insider_name": "Brouwer Roald",
+      "title": "CTO",
+      "trade_type": "P - Purchase",
+      "price": "58.72",
+      "qty": "3000",
+      "owned": "16257",
+      "delta_own": "+23%",
+      "value": "176160",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-11",
+      "filing_time": "13:23",
+      "trade_date": "2026-03-09",
+      "ticker": "FFIN",
+      "company": "First Financial Bankshares Inc",
+      "insider_name": "Hickox Michelle S",
+      "title": "EVP, CFO",
+      "trade_type": "P - Purchase",
+      "price": "29.50",
+      "qty": "2000",
+      "owned": "26461",
+      "delta_own": "+8%",
+      "value": "59000",
+      "cluster_buy": true
     }
   ]
 }
