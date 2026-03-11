@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-11T00:16:33Z",
-  "trade_count": 2516,
+  "last_updated": "2026-03-11T16:00:22Z",
+  "trade_count": 2517,
   "currency": "CAD",
   "source": "SEDI",
   "trades": [
@@ -37307,7 +37307,7 @@
       "price": "109.0394",
       "value": "501581",
       "currency": "CAD",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "transaction_id": "4673428",
@@ -37763,6 +37763,22 @@
       "currency": "CAD",
       "amendment": "",
       "cluster_buy": false
+    },
+    {
+      "transaction_id": "4678209",
+      "trade_date": "2026-03-11",
+      "filing_date": "2026-03-11",
+      "company": "Thomson Reuters Corporation",
+      "ticker": "TRI",
+      "insider_name": "Sagan, Paul",
+      "title": "Director",
+      "security": "Common Shares",
+      "qty": "2360",
+      "price": "105.5090",
+      "value": "249001",
+      "currency": "CAD",
+      "amendment": "",
+      "cluster_buy": true
     }
   ]
 }
