@@ -5276,3 +5276,5 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-11,11:46,2026-03-09,FRAF,Franklin Financial Services Corp /Pa/,Snook Gregory I,Dir,P - Purchase,48.18,2200,9288,+31%,105996,False
 2026-03-11,13:49,2026-03-11,AMRZ,Amrize Ltd,Brouwer Roald,CTO,P - Purchase,58.72,3000,16257,+23%,176160,True
 2026-03-11,13:23,2026-03-09,FFIN,First Financial Bankshares Inc,Hickox Michelle S,"EVP, CFO",P - Purchase,29.50,2000,26461,+8%,59000,True
+2026-03-11,14:00,2026-03-10,AMRZ,Amrize Ltd,Johnston Ian A,CFO,P - Purchase,58.94,4250,25110,+20%,250474,True
+2026-03-11,13:56,2026-03-11,AMRZ,Amrize Ltd,Hill Jaime,"Pres, Building Materials",P - Purchase,58.91,1000,27000,+4%,58910,True

@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-11T17:54:56Z",
-  "trade_count": 5277,
+  "last_updated": "2026-03-11T18:58:59Z",
+  "trade_count": 5279,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -84432,6 +84432,38 @@
       "owned": "26461",
       "delta_own": "+8%",
       "value": "59000",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-11",
+      "filing_time": "14:00",
+      "trade_date": "2026-03-10",
+      "ticker": "AMRZ",
+      "company": "Amrize Ltd",
+      "insider_name": "Johnston Ian A",
+      "title": "CFO",
+      "trade_type": "P - Purchase",
+      "price": "58.94",
+      "qty": "4250",
+      "owned": "25110",
+      "delta_own": "+20%",
+      "value": "250474",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-11",
+      "filing_time": "13:56",
+      "trade_date": "2026-03-11",
+      "ticker": "AMRZ",
+      "company": "Amrize Ltd",
+      "insider_name": "Hill Jaime",
+      "title": "Pres, Building Materials",
+      "trade_type": "P - Purchase",
+      "price": "58.91",
+      "qty": "1000",
+      "owned": "27000",
+      "delta_own": "+4%",
+      "value": "58910",
       "cluster_buy": true
     }
   ]
