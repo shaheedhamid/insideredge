@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-11",
-  "entry_count": 530,
+  "entry_count": 543,
   "entries": [
     {
       "id": "US|IPWR|2026-02-25|Somo David M",
@@ -11490,6 +11490,266 @@
       },
       "latest_price": 0.75,
       "return_pct": 15.38,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SFM|2026-03-10|Blum Kristen E",
+      "market": "US",
+      "ticker": "SFM",
+      "yf_symbol": "SFM",
+      "company": "Sprouts Farmers Market, Inc.",
+      "insider_name": "Blum Kristen E",
+      "title": "Dir",
+      "trade_date": "2026-03-10",
+      "trade_price": 76.0,
+      "value": 100700.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 75.35
+      },
+      "latest_price": 75.35,
+      "return_pct": -0.86,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SRE|2026-03-11|Mark Richard J",
+      "market": "US",
+      "ticker": "SRE",
+      "yf_symbol": "SRE",
+      "company": "Sempra",
+      "insider_name": "Mark Richard J",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 93.3,
+      "value": 251164.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 92.79
+      },
+      "latest_price": 92.79,
+      "return_pct": -0.55,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SRE|2026-03-11|Warner Cynthia J",
+      "market": "US",
+      "ticker": "SRE",
+      "yf_symbol": "SRE",
+      "company": "Sempra",
+      "insider_name": "Warner Cynthia J",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 92.95,
+      "value": 232375.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 92.79
+      },
+      "latest_price": 92.79,
+      "return_pct": -0.17,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|GO|2026-03-10|Jaros Carey F.",
+      "market": "US",
+      "ticker": "GO",
+      "yf_symbol": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "Jaros Carey F.",
+      "title": "Dir",
+      "trade_date": "2026-03-10",
+      "trade_price": 6.26,
+      "value": 250400.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 6.2
+      },
+      "latest_price": 6.2,
+      "return_pct": -0.96,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|GO|2026-03-09|York Jeffrey",
+      "market": "US",
+      "ticker": "GO",
+      "yf_symbol": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "York Jeffrey",
+      "title": "Dir",
+      "trade_date": "2026-03-09",
+      "trade_price": 5.82,
+      "value": 698200.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 6.2
+      },
+      "latest_price": 6.2,
+      "return_pct": 6.53,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|GO|2026-03-09|Lindberg Eric J. Jr.",
+      "market": "US",
+      "ticker": "GO",
+      "yf_symbol": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "Lindberg Eric J. Jr.",
+      "title": "Dir",
+      "trade_date": "2026-03-09",
+      "trade_price": 5.98,
+      "value": 1644500.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 6.2
+      },
+      "latest_price": 6.2,
+      "return_pct": 3.68,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|DSGR|2026-03-10|Zamarripa Robert",
+      "market": "US",
+      "ticker": "DSGR",
+      "yf_symbol": "DSGR",
+      "company": "Distribution Solutions Group, Inc.",
+      "insider_name": "Zamarripa Robert",
+      "title": "Dir",
+      "trade_date": "2026-03-10",
+      "trade_price": 21.23,
+      "value": 297220.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 20.61
+      },
+      "latest_price": 20.61,
+      "return_pct": -2.92,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SSP|2026-03-09|Sanchez Mary Ann S.",
+      "market": "US",
+      "ticker": "SSP",
+      "yf_symbol": "SSP",
+      "company": "E.W. Scripps Co",
+      "insider_name": "Sanchez Mary Ann S.",
+      "title": "10%",
+      "trade_date": "2026-03-09",
+      "trade_price": 4.5,
+      "value": 993380.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 4.17
+      },
+      "latest_price": 4.17,
+      "return_pct": -7.33,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SSP|2026-03-09|Brickner Samantha J.",
+      "market": "US",
+      "ticker": "SSP",
+      "yf_symbol": "SSP",
+      "company": "E.W. Scripps Co",
+      "insider_name": "Brickner Samantha J.",
+      "title": "10%",
+      "trade_date": "2026-03-09",
+      "trade_price": 4.5,
+      "value": 496688.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 4.17
+      },
+      "latest_price": 4.17,
+      "return_pct": -7.33,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SSP|2026-03-09|Brickner Savannah",
+      "market": "US",
+      "ticker": "SSP",
+      "yf_symbol": "SSP",
+      "company": "E.W. Scripps Co",
+      "insider_name": "Brickner Savannah",
+      "title": "10%",
+      "trade_date": "2026-03-09",
+      "trade_price": 4.5,
+      "value": 298012.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 4.17
+      },
+      "latest_price": 4.17,
+      "return_pct": -7.33,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SSP|2026-03-09|Granado Geraldine Scripps",
+      "market": "US",
+      "ticker": "SSP",
+      "yf_symbol": "SSP",
+      "company": "E.W. Scripps Co",
+      "insider_name": "Granado Geraldine Scripps",
+      "title": "10%",
+      "trade_date": "2026-03-09",
+      "trade_price": 4.49,
+      "value": 99332.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 4.17
+      },
+      "latest_price": 4.17,
+      "return_pct": -7.13,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|SSP|2026-03-10|Granado Ellen B.",
+      "market": "US",
+      "ticker": "SSP",
+      "yf_symbol": "SSP",
+      "company": "E.W. Scripps Co",
+      "insider_name": "Granado Ellen B.",
+      "title": "10%",
+      "trade_date": "2026-03-10",
+      "trade_price": 4.46,
+      "value": 80271.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 4.17
+      },
+      "latest_price": 4.17,
+      "return_pct": -6.5,
+      "last_snapshot": "2026-03-11"
+    },
+    {
+      "id": "US|NSP|2026-03-10|Allison James D",
+      "market": "US",
+      "ticker": "NSP",
+      "yf_symbol": "NSP",
+      "company": "Insperity, Inc.",
+      "insider_name": "Allison James D",
+      "title": "EVP, Finance, CFO, Treasurer",
+      "trade_date": "2026-03-10",
+      "trade_price": 20.45,
+      "value": 204500.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-11": 19.9
+      },
+      "latest_price": 19.9,
+      "return_pct": -2.69,
       "last_snapshot": "2026-03-11"
     }
   ]

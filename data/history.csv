@@ -5290,3 +5290,16 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-11,17:05,2026-03-10,MCB,Metropolitan Bank Holding Corp.,Dougherty Daniel F,"EVP, CFO",P - Purchase,79.95,1000,32767,+3%,79950,False
 2026-03-11,16:55,2026-03-09,VITL,"Vital Farms, Inc.",Khoury Karl,Dir,P - Purchase,18.45,5000,119789,+4%,92250,False
 2026-03-11,16:30,2026-03-09,ADV,Advantage Solutions Inc.,Kilts James M,Dir,P - Purchase,0.65,141867,1515347,+10%,92922,True
+2026-03-11,19:19,2026-03-10,SFM,"Sprouts Farmers Market, Inc.",Blum Kristen E,Dir,P - Purchase,76.00,1325,54407,+2%,100700,True
+2026-03-11,19:19,2026-03-11,SRE,Sempra,Mark Richard J,Dir,P - Purchase,93.30,2692,17376,+18%,251164,True
+2026-03-11,19:18,2026-03-11,SRE,Sempra,Warner Cynthia J,Dir,P - Purchase,92.95,2500,11275,+28%,232375,True
+2026-03-11,18:42,2026-03-10,GO,Grocery Outlet Holding Corp.,Jaros Carey F.,Dir,P - Purchase,6.26,40000,76066,+111%,250400,True
+2026-03-11,18:41,2026-03-09,GO,Grocery Outlet Holding Corp.,York Jeffrey,Dir,P - Purchase,5.82,120000,210791,+132%,698200,True
+2026-03-11,18:40,2026-03-09,GO,Grocery Outlet Holding Corp.,Lindberg Eric J. Jr.,Dir,P - Purchase,5.98,275000,2822795,+11%,1644500,True
+2026-03-11,18:34,2026-03-10,DSGR,"Distribution Solutions Group, Inc.",Zamarripa Robert,Dir,P - Purchase,21.23,14000,47105,+42%,297220,False
+2026-03-11,18:30,2026-03-09,SSP,E.W. Scripps Co,Sanchez Mary Ann S.,10%,P - Purchase,4.50,220715,870205,+34%,993380,True
+2026-03-11,18:30,2026-03-09,SSP,E.W. Scripps Co,Brickner Samantha J.,10%,P - Purchase,4.50,110367,110539,>999%,496688,True
+2026-03-11,18:30,2026-03-09,SSP,E.W. Scripps Co,Brickner Savannah,10%,P - Purchase,4.50,66226,66593,>999%,298012,True
+2026-03-11,18:30,2026-03-09,SSP,E.W. Scripps Co,Granado Geraldine Scripps,10%,P - Purchase,4.49,22104,72220,+44%,99332,True
+2026-03-11,18:30,2026-03-10,SSP,E.W. Scripps Co,Granado Ellen B.,10%,P - Purchase,4.46,18000,28115,+178%,80271,True
+2026-03-11,18:27,2026-03-10,NSP,"Insperity, Inc.",Allison James D,"EVP, Finance, CFO, Treasurer",P - Purchase,20.45,10000,94272,+12%,204500,False
