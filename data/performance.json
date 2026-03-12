@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-12",
-  "entry_count": 542,
+  "entry_count": 529,
   "entries": [
     {
       "id": "US|IPWR|2026-02-25|Somo David M",
@@ -3039,29 +3039,6 @@
       "last_snapshot": "2026-03-12"
     },
     {
-      "id": "US|ERNA|2026-02-10|Cherington Charles",
-      "market": "US",
-      "ticker": "ERNA",
-      "yf_symbol": "ERNA",
-      "company": "Ernexa Therapeutics Inc.",
-      "insider_name": "Cherington Charles",
-      "title": "10%",
-      "trade_date": "2026-02-10",
-      "trade_price": 0.5,
-      "value": 2000000.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 0.29,
-        "2026-03-10": 0.3019,
-        "2026-03-11": 0.2917,
-        "2026-03-12": 0.309
-      },
-      "latest_price": 0.309,
-      "return_pct": -38.2,
-      "last_snapshot": "2026-03-12"
-    },
-    {
       "id": "US|SONO|2026-02-12|Coliseum Capital Management, LLC",
       "market": "US",
       "ticker": "SONO",
@@ -4206,29 +4183,6 @@
       "last_snapshot": "2026-03-12"
     },
     {
-      "id": "US|RBBN|2026-02-10|McClelland Bruce William",
-      "market": "US",
-      "ticker": "RBBN",
-      "yf_symbol": "RBBN",
-      "company": "Ribbon Communications Inc.",
-      "insider_name": "McClelland Bruce William",
-      "title": "Pres, CEO",
-      "trade_date": "2026-02-10",
-      "trade_price": 2.01,
-      "value": 74307.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 2.15,
-        "2026-03-10": 2.25,
-        "2026-03-11": 2.25,
-        "2026-03-12": 2.15
-      },
-      "latest_price": 2.15,
-      "return_pct": 6.97,
-      "last_snapshot": "2026-03-12"
-    },
-    {
       "id": "US|QDEL|2026-02-13|Blaser Brian J.",
       "market": "US",
       "ticker": "QDEL",
@@ -4344,24 +4298,6 @@
       "last_snapshot": "2026-03-12"
     },
     {
-      "id": "US|THS|2026-02-10|Silver Point Capital L.P.",
-      "market": "US",
-      "ticker": "THS",
-      "yf_symbol": "THS",
-      "company": "Treehouse Foods, Inc.",
-      "insider_name": "Silver Point Capital L.P.",
-      "title": "10%",
-      "trade_date": "2026-02-10",
-      "trade_price": 24.54,
-      "value": 8783283.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {},
-      "latest_price": null,
-      "return_pct": null,
-      "last_snapshot": null
-    },
-    {
       "id": "US|MOH|2026-02-11|Zoretic Richard C",
       "market": "US",
       "ticker": "MOH",
@@ -4385,52 +4321,6 @@
       "last_snapshot": "2026-03-12"
     },
     {
-      "id": "US|RDDT|2026-02-10|Farrell Sarah E",
-      "market": "US",
-      "ticker": "RDDT",
-      "yf_symbol": "RDDT",
-      "company": "Reddit, Inc.",
-      "insider_name": "Farrell Sarah E",
-      "title": "Dir",
-      "trade_date": "2026-02-10",
-      "trade_price": 148.16,
-      "value": 7482139.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 139.39,
-        "2026-03-10": 134.13,
-        "2026-03-11": 137.12,
-        "2026-03-12": 132.25
-      },
-      "latest_price": 132.25,
-      "return_pct": -10.74,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|IMDX|2026-02-10|Broadwood Partners, L.P.",
-      "market": "US",
-      "ticker": "IMDX",
-      "yf_symbol": "IMDX",
-      "company": "Insight Molecular Diagnostics Inc.",
-      "insider_name": "Broadwood Partners, L.P.",
-      "title": "10%",
-      "trade_date": "2026-02-10",
-      "trade_price": 5.75,
-      "value": 2999999.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 5.45,
-        "2026-03-10": 5.35,
-        "2026-03-11": 5.25,
-        "2026-03-12": 4.89
-      },
-      "latest_price": 4.89,
-      "return_pct": -14.96,
-      "last_snapshot": "2026-03-12"
-    },
-    {
       "id": "US|KVHI|2026-02-12|Radoff Bradley Louis",
       "market": "US",
       "ticker": "KVHI",
@@ -4451,29 +4341,6 @@
       },
       "latest_price": 7.45,
       "return_pct": 19.01,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|MPLT|2026-02-10|Garnett Timothy John",
-      "market": "US",
-      "ticker": "MPLT",
-      "yf_symbol": "MPLT",
-      "company": "Maplight Therapeutics, Inc.",
-      "insider_name": "Garnett Timothy John",
-      "title": "Dir",
-      "trade_date": "2026-02-10",
-      "trade_price": 17.89,
-      "value": 252678.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 18.51,
-        "2026-03-10": 18.97,
-        "2026-03-11": 18.98,
-        "2026-03-12": 19.14
-      },
-      "latest_price": 19.14,
-      "return_pct": 6.99,
       "last_snapshot": "2026-03-12"
     },
     {
@@ -4523,75 +4390,6 @@
       "last_snapshot": "2026-03-12"
     },
     {
-      "id": "US|TBBK|2026-02-10|Cohn Matthew",
-      "market": "US",
-      "ticker": "TBBK",
-      "yf_symbol": "TBBK",
-      "company": "Bancorp, Inc.",
-      "insider_name": "Cohn Matthew",
-      "title": "Dir",
-      "trade_date": "2026-02-10",
-      "trade_price": 60.18,
-      "value": 65000.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 52.66,
-        "2026-03-10": 53.21,
-        "2026-03-11": 52.73,
-        "2026-03-12": 53.3
-      },
-      "latest_price": 53.3,
-      "return_pct": -11.43,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|AXR|2026-02-10|Dahl James H",
-      "market": "US",
-      "ticker": "AXR",
-      "yf_symbol": "AXR",
-      "company": "Amrep Corp.",
-      "insider_name": "Dahl James H",
-      "title": "10%",
-      "trade_date": "2026-02-10",
-      "trade_price": 22.22,
-      "value": 202713.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 24.6,
-        "2026-03-10": 23.87,
-        "2026-03-11": 23.58,
-        "2026-03-12": 23.41
-      },
-      "latest_price": 23.41,
-      "return_pct": 5.36,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|AON|2026-02-10|Knight Lester B",
-      "market": "US",
-      "ticker": "AON",
-      "yf_symbol": "AON",
-      "company": "Aon Plc",
-      "insider_name": "Knight Lester B",
-      "title": "Dir",
-      "trade_date": "2026-02-10",
-      "trade_price": 319.24,
-      "value": 1276956.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 340.6,
-        "2026-03-10": 320.96,
-        "2026-03-11": 316.9,
-        "2026-03-12": 315.91
-      },
-      "latest_price": 315.91,
-      "return_pct": -1.04,
-      "last_snapshot": "2026-03-12"
-    },
-    {
       "id": "US|TECX|2026-02-11|Reicin Alise",
       "market": "US",
       "ticker": "TECX",
@@ -4612,52 +4410,6 @@
       },
       "latest_price": 34.12,
       "return_pct": 61.71,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|FIEE|2026-02-10|Elements Corporate Services Ltd",
-      "market": "US",
-      "ticker": "FIEE",
-      "yf_symbol": "FIEE",
-      "company": "Fiee, Inc.",
-      "insider_name": "Elements Corporate Services Ltd",
-      "title": "10%",
-      "trade_date": "2026-02-10",
-      "trade_price": 1.29,
-      "value": 2758253.0,
-      "cluster_buy": false,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 6.43,
-        "2026-03-10": 6.7,
-        "2026-03-11": 6.915,
-        "2026-03-12": 6.93
-      },
-      "latest_price": 6.93,
-      "return_pct": 437.21,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|RAL|2026-02-10|Mitchell Kate",
-      "market": "US",
-      "ticker": "RAL",
-      "yf_symbol": "RAL",
-      "company": "Ralliant Corp",
-      "insider_name": "Mitchell Kate",
-      "title": "Dir",
-      "trade_date": "2026-02-10",
-      "trade_price": 42.48,
-      "value": 99828.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 44.64,
-        "2026-03-10": 44.64,
-        "2026-03-11": 45.77,
-        "2026-03-12": 42.95
-      },
-      "latest_price": 42.95,
-      "return_pct": 1.11,
       "last_snapshot": "2026-03-12"
     },
     {
@@ -4727,75 +4479,6 @@
       },
       "latest_price": 0.3574,
       "return_pct": -12.83,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|TECX|2026-02-10|Lochner Daniel",
-      "market": "US",
-      "ticker": "TECX",
-      "yf_symbol": "TECX",
-      "company": "Tectonic Therapeutic, Inc.",
-      "insider_name": "Lochner Daniel",
-      "title": "CFO",
-      "trade_date": "2026-02-10",
-      "trade_price": 21.61,
-      "value": 129660.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 35.87,
-        "2026-03-10": 33.24,
-        "2026-03-11": 34.79,
-        "2026-03-12": 34.12
-      },
-      "latest_price": 34.12,
-      "return_pct": 57.89,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|MMS|2026-02-10|Caswell Bruce",
-      "market": "US",
-      "ticker": "MMS",
-      "yf_symbol": "MMS",
-      "company": "Maximus, Inc.",
-      "insider_name": "Caswell Bruce",
-      "title": "CEO, Pres",
-      "trade_date": "2026-02-10",
-      "trade_price": 78.45,
-      "value": 249081.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 78.01,
-        "2026-03-10": 73.48,
-        "2026-03-11": 73.75,
-        "2026-03-12": 72.43
-      },
-      "latest_price": 72.43,
-      "return_pct": -7.67,
-      "last_snapshot": "2026-03-12"
-    },
-    {
-      "id": "US|BMI|2026-02-10|Bockhorst Kenneth",
-      "market": "US",
-      "ticker": "BMI",
-      "yf_symbol": "BMI",
-      "company": "Badger Meter Inc",
-      "insider_name": "Bockhorst Kenneth",
-      "title": "COB, Pres, CEO",
-      "trade_date": "2026-02-10",
-      "trade_price": 152.42,
-      "value": 502986.0,
-      "cluster_buy": true,
-      "currency": "USD",
-      "snapshots": {
-        "2026-03-07": 148.85,
-        "2026-03-10": 147.2,
-        "2026-03-11": 146.84,
-        "2026-03-12": 144.3
-      },
-      "latest_price": 144.3,
-      "return_pct": -5.33,
       "last_snapshot": "2026-03-12"
     },
     {
@@ -12180,6 +11863,26 @@
       },
       "latest_price": 5.44,
       "return_pct": -4.39,
+      "last_snapshot": "2026-03-12"
+    },
+    {
+      "id": "US|GO|2026-03-11|Ragatz Erik D.",
+      "market": "US",
+      "ticker": "GO",
+      "yf_symbol": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "Ragatz Erik D.",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 6.0,
+      "value": 750000.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-12": 6.08
+      },
+      "latest_price": 6.08,
+      "return_pct": 1.33,
       "last_snapshot": "2026-03-12"
     }
   ]

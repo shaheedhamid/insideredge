@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-12T22:31:18Z",
-  "trade_count": 5334,
+  "last_updated": "2026-03-12T23:19:19Z",
+  "trade_count": 5335,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -85345,6 +85345,22 @@
       "delta_own": "+50%",
       "value": "56900",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-12",
+      "filing_time": "19:09",
+      "trade_date": "2026-03-11",
+      "ticker": "GO",
+      "company": "Grocery Outlet Holding Corp.",
+      "insider_name": "Ragatz Erik D.",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "6.00",
+      "qty": "125000",
+      "owned": "976966",
+      "delta_own": "+15%",
+      "value": "750000",
+      "cluster_buy": true
     }
   ]
 }
