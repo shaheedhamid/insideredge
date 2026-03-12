@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-12T19:31:55Z",
-  "trade_count": 2536,
+  "last_updated": "2026-03-12T22:00:18Z",
+  "trade_count": 2537,
   "currency": "CAD",
   "source": "SEDI",
   "trades": [
@@ -38125,6 +38125,22 @@
       "qty": "50000",
       "price": "1.0000",
       "value": "50000",
+      "currency": "CAD",
+      "amendment": "",
+      "cluster_buy": false
+    },
+    {
+      "transaction_id": "4679334",
+      "trade_date": "2026-03-12",
+      "filing_date": "2026-03-12",
+      "company": "Superior Plus Corp.",
+      "ticker": "SPB",
+      "insider_name": "Winger, Dale Alan",
+      "title": "Senior Officer",
+      "security": "Common Shares",
+      "qty": "4000",
+      "price": "6.4663",
+      "value": "25865",
       "currency": "CAD",
       "amendment": "",
       "cluster_buy": false
