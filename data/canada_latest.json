@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-12T22:00:18Z",
-  "trade_count": 2537,
+  "last_updated": "2026-03-13T03:01:20Z",
+  "trade_count": 2538,
   "currency": "CAD",
   "source": "SEDI",
   "trades": [
@@ -37791,7 +37791,7 @@
       "value": "169350",
       "currency": "CAD",
       "amendment": "",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "transaction_id": "4677077",
@@ -38144,6 +38144,22 @@
       "currency": "CAD",
       "amendment": "",
       "cluster_buy": false
+    },
+    {
+      "transaction_id": "4679644",
+      "trade_date": "2026-03-12",
+      "filing_date": "2026-03-12",
+      "company": "Methanex Corporation",
+      "ticker": "MX",
+      "insider_name": "Bain, Colin",
+      "title": "Director & Senior Officer",
+      "security": "Common Shares",
+      "qty": "2470",
+      "price": "58.6900",
+      "value": "144964",
+      "currency": "CAD",
+      "amendment": "",
+      "cluster_buy": true
     }
   ]
 }
