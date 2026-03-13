@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-13T22:33:01Z",
-  "trade_count": 5433,
+  "last_updated": "2026-03-13T23:33:07Z",
+  "trade_count": 5437,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -86929,6 +86929,70 @@
       "delta_own": "+17%",
       "value": "99865",
       "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "19:14",
+      "trade_date": "2026-03-11",
+      "ticker": "ALKT",
+      "company": "Alkami Technology, Inc.",
+      "insider_name": "Payne Joseph P.",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "18.23",
+      "qty": "5500",
+      "owned": "26628",
+      "delta_own": "+26%",
+      "value": "100238",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "19:09",
+      "trade_date": "2026-03-13",
+      "ticker": "BETR",
+      "company": "Better Home & Finance Holding Co",
+      "insider_name": "Framework Ventures IV L.P.",
+      "title": "10%",
+      "trade_type": "P - Purchase",
+      "price": "34.12",
+      "qty": "29494",
+      "owned": "1202912",
+      "delta_own": "+3%",
+      "value": "1006335",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "18:48",
+      "trade_date": "2026-03-11",
+      "ticker": "GOGO",
+      "company": "Gogo Inc.",
+      "insider_name": "Townsend Charles C",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "4.55",
+      "qty": "250000",
+      "owned": "4511032",
+      "delta_own": "+6%",
+      "value": "1138706",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "18:43",
+      "trade_date": "2026-03-12",
+      "ticker": "ACOG",
+      "company": "Alpha Cognition Inc.",
+      "insider_name": "Opaleye Management Inc.",
+      "title": "10%",
+      "trade_type": "P - Purchase",
+      "price": "5.79",
+      "qty": "13066",
+      "owned": "2524012",
+      "delta_own": "+1%",
+      "value": "75703",
+      "cluster_buy": false
     }
   ]
 }
