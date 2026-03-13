@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-13T19:33:47Z",
-  "trade_count": 5417,
+  "last_updated": "2026-03-13T20:40:32Z",
+  "trade_count": 5420,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -86208,7 +86208,7 @@
       "owned": "4087005",
       "delta_own": "+1%",
       "value": "2967831",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-03-12",
@@ -86256,7 +86256,7 @@
       "owned": "4087005",
       "delta_own": "+1%",
       "value": "2967831",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-03-12",
@@ -86672,6 +86672,54 @@
       "owned": "2400955",
       "delta_own": "+1%",
       "value": "43650",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "16:15",
+      "trade_date": "2026-03-13",
+      "ticker": "MDRR",
+      "company": "Medalist Diversified, Inc.",
+      "insider_name": "Kavanaugh Frank",
+      "title": "COB, CEO, Pres, 10%",
+      "trade_type": "P - Purchase",
+      "price": "15.00",
+      "qty": "40000",
+      "owned": "646177",
+      "delta_own": "+7%",
+      "value": "600000",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "16:01",
+      "trade_date": "2026-03-13",
+      "ticker": "FG",
+      "company": "F&G Annuities & Life, Inc.",
+      "insider_name": "Blunt Christopher O",
+      "title": "CEO",
+      "trade_type": "P - Purchase",
+      "price": "20.99",
+      "qty": "10000",
+      "owned": "1107128",
+      "delta_own": "+1%",
+      "value": "209900",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "15:35",
+      "trade_date": "2026-03-12",
+      "ticker": "LOAR",
+      "company": "Loar Holdings Inc.",
+      "insider_name": "Bobbili Raja",
+      "title": "Dir, 10%",
+      "trade_type": "P - Purchase",
+      "price": "63.61",
+      "qty": "50000",
+      "owned": "31488420",
+      "delta_own": "0%",
+      "value": "3180486",
       "cluster_buy": true
     }
   ]
