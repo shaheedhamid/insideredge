@@ -5419,3 +5419,12 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-13,16:15,2026-03-13,MDRR,"Medalist Diversified, Inc.",Kavanaugh Frank,"COB, CEO, Pres, 10%",P - Purchase,15.00,40000,646177,+7%,600000,False
 2026-03-13,16:01,2026-03-13,FG,"F&G Annuities & Life, Inc.",Blunt Christopher O,CEO,P - Purchase,20.99,10000,1107128,+1%,209900,False
 2026-03-13,15:35,2026-03-12,LOAR,Loar Holdings Inc.,Bobbili Raja,"Dir, 10%",P - Purchase,63.61,50000,31488420,0%,3180486,True
+2026-03-13,17:35,2026-03-12,LOAR,Loar Holdings Inc.,Carpenito Anthony,"Dir, 10%",P - Purchase,64.97,4800,31443220,0%,311857,True
+2026-03-13,17:07,2026-03-12,SRE,Sempra,Kirk Jennifer M,Dir,P - Purchase,93.44,1000,1000,New,93440,True
+2026-03-13,17:06,2022-11-18,JBHT,Hunt J B Transport Services Inc,Frazier Spencer,"EVP of Sales, Marketing",P - Purchase,155.65,205,20480,+1%,31872,False
+2026-03-13,17:06,2026-03-13,BH,Biglari Holdings Inc.,"Biglari, Sardar","COB, CEO, 10%",P - Purchase,302.20,2810,1571761,0%,849182,False
+2026-03-13,17:05,2026-03-11,CPS,Cooper-Standard Holdings Inc.,Mastrocola David John,Dir,P - Purchase,30.23,6885,25000,+38%,208144,False
+2026-03-13,17:00,2026-03-11,SVRE,Saverone 2014 Ltd.,"Visionwave Holdings, Inc.",Dir,P - Purchase,2.64,347760000,2147483647,+5%,918955152,False
+2026-03-13,17:00,2026-03-11,CRH,Crh Public Ltd Co,Fearon Richard H,Dir,P - Purchase,104.49,3800,143800,+3%,397062,True
+2026-03-13,17:00,2026-03-12,CRH,Crh Public Ltd Co,Talbot Siobhan,Dir,P - Purchase,102.11,2000,7550,+36%,204223,True
+2026-03-13,16:46,2026-03-11,DYN,"Dyne Therapeutics, Inc.",Posner Brian S,Dir,P - Purchase,19.35,2000,13500,+17%,38700,False

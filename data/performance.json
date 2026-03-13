@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-13",
-  "entry_count": 593,
+  "entry_count": 601,
   "entries": [
     {
       "id": "US|IPWR|2026-02-25|Somo David M",
@@ -13678,6 +13678,166 @@
       },
       "latest_price": 63.03,
       "return_pct": -0.91,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|LOAR|2026-03-12|Carpenito Anthony",
+      "market": "US",
+      "ticker": "LOAR",
+      "yf_symbol": "LOAR",
+      "company": "Loar Holdings Inc.",
+      "insider_name": "Carpenito Anthony",
+      "title": "Dir, 10%",
+      "trade_date": "2026-03-12",
+      "trade_price": 64.97,
+      "value": 311857.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 63.03
+      },
+      "latest_price": 63.03,
+      "return_pct": -2.99,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|SRE|2026-03-12|Kirk Jennifer M",
+      "market": "US",
+      "ticker": "SRE",
+      "yf_symbol": "SRE",
+      "company": "Sempra",
+      "insider_name": "Kirk Jennifer M",
+      "title": "Dir",
+      "trade_date": "2026-03-12",
+      "trade_price": 93.44,
+      "value": 93440.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 93.19
+      },
+      "latest_price": 93.19,
+      "return_pct": -0.27,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|BH|2026-03-13|Biglari, Sardar",
+      "market": "US",
+      "ticker": "BH",
+      "yf_symbol": "BH",
+      "company": "Biglari Holdings Inc.",
+      "insider_name": "Biglari, Sardar",
+      "title": "COB, CEO, 10%",
+      "trade_date": "2026-03-13",
+      "trade_price": 302.2,
+      "value": 849182.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 307.91
+      },
+      "latest_price": 307.91,
+      "return_pct": 1.89,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|CPS|2026-03-11|Mastrocola David John",
+      "market": "US",
+      "ticker": "CPS",
+      "yf_symbol": "CPS",
+      "company": "Cooper-Standard Holdings Inc.",
+      "insider_name": "Mastrocola David John",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 30.23,
+      "value": 208144.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 30.29
+      },
+      "latest_price": 30.29,
+      "return_pct": 0.2,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|SVRE|2026-03-11|Visionwave Holdings, Inc.",
+      "market": "US",
+      "ticker": "SVRE",
+      "yf_symbol": "SVRE",
+      "company": "Saverone 2014 Ltd.",
+      "insider_name": "Visionwave Holdings, Inc.",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 2.64,
+      "value": 918955152.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 2.86
+      },
+      "latest_price": 2.86,
+      "return_pct": 8.33,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|CRH|2026-03-11|Fearon Richard H",
+      "market": "US",
+      "ticker": "CRH",
+      "yf_symbol": "CRH",
+      "company": "Crh Public Ltd Co",
+      "insider_name": "Fearon Richard H",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 104.49,
+      "value": 397062.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 99.73
+      },
+      "latest_price": 99.73,
+      "return_pct": -4.56,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|CRH|2026-03-12|Talbot Siobhan",
+      "market": "US",
+      "ticker": "CRH",
+      "yf_symbol": "CRH",
+      "company": "Crh Public Ltd Co",
+      "insider_name": "Talbot Siobhan",
+      "title": "Dir",
+      "trade_date": "2026-03-12",
+      "trade_price": 102.11,
+      "value": 204223.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 99.73
+      },
+      "latest_price": 99.73,
+      "return_pct": -2.33,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|DYN|2026-03-11|Posner Brian S",
+      "market": "US",
+      "ticker": "DYN",
+      "yf_symbol": "DYN",
+      "company": "Dyne Therapeutics, Inc.",
+      "insider_name": "Posner Brian S",
+      "title": "Dir",
+      "trade_date": "2026-03-11",
+      "trade_price": 19.35,
+      "value": 38700.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 18.06
+      },
+      "latest_price": 18.06,
+      "return_pct": -6.67,
       "last_snapshot": "2026-03-13"
     }
   ]
