@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-03-13T21:38:02Z",
-  "trade_count": 5429,
+  "last_updated": "2026-03-13T22:33:01Z",
+  "trade_count": 5433,
   "trades": [
     {
       "filing_date": "2026-02-26",
@@ -86704,7 +86704,7 @@
       "owned": "1107128",
       "delta_own": "+1%",
       "value": "209900",
-      "cluster_buy": false
+      "cluster_buy": true
     },
     {
       "filing_date": "2026-03-13",
@@ -86865,6 +86865,70 @@
       "delta_own": "+17%",
       "value": "38700",
       "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "18:15",
+      "trade_date": "2026-03-13",
+      "ticker": "PTLO",
+      "company": "Portillo'S Inc.",
+      "insider_name": "Lee Eugene I Jr",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "5.18",
+      "qty": "286000",
+      "owned": "477048",
+      "delta_own": "+150%",
+      "value": "1481480",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "18:10",
+      "trade_date": "2026-03-12",
+      "ticker": "HGTY",
+      "company": "Hagerty, Inc.",
+      "insider_name": "Kuczinski Anthony J",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "9.50",
+      "qty": "4000",
+      "owned": "47277",
+      "delta_own": "+9%",
+      "value": "38000",
+      "cluster_buy": false
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "18:04",
+      "trade_date": "2026-03-11",
+      "ticker": "NXRT",
+      "company": "Nexpoint Residential Trust, Inc.",
+      "insider_name": "McGraner Matt",
+      "title": "See Remarks",
+      "trade_type": "P - Purchase",
+      "price": "26.14",
+      "qty": "1000",
+      "owned": "455491",
+      "delta_own": "0%",
+      "value": "26140",
+      "cluster_buy": true
+    },
+    {
+      "filing_date": "2026-03-13",
+      "filing_time": "17:37",
+      "trade_date": "2026-03-13",
+      "ticker": "FG",
+      "company": "F&G Annuities & Life, Inc.",
+      "insider_name": "Doka Celina J. Wang",
+      "title": "Dir",
+      "trade_type": "P - Purchase",
+      "price": "20.98",
+      "qty": "4760",
+      "owned": "32071",
+      "delta_own": "+17%",
+      "value": "99865",
+      "cluster_buy": true
     }
   ]
 }

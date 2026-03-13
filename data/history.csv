@@ -5428,3 +5428,7 @@ filing_date,filing_time,trade_date,ticker,company,insider_name,title,trade_type,
 2026-03-13,17:00,2026-03-11,CRH,Crh Public Ltd Co,Fearon Richard H,Dir,P - Purchase,104.49,3800,143800,+3%,397062,True
 2026-03-13,17:00,2026-03-12,CRH,Crh Public Ltd Co,Talbot Siobhan,Dir,P - Purchase,102.11,2000,7550,+36%,204223,True
 2026-03-13,16:46,2026-03-11,DYN,"Dyne Therapeutics, Inc.",Posner Brian S,Dir,P - Purchase,19.35,2000,13500,+17%,38700,False
+2026-03-13,18:15,2026-03-13,PTLO,Portillo'S Inc.,Lee Eugene I Jr,Dir,P - Purchase,5.18,286000,477048,+150%,1481480,False
+2026-03-13,18:10,2026-03-12,HGTY,"Hagerty, Inc.",Kuczinski Anthony J,Dir,P - Purchase,9.50,4000,47277,+9%,38000,False
+2026-03-13,18:04,2026-03-11,NXRT,"Nexpoint Residential Trust, Inc.",McGraner Matt,See Remarks,P - Purchase,26.14,1000,455491,0%,26140,True
+2026-03-13,17:37,2026-03-13,FG,"F&G Annuities & Life, Inc.",Doka Celina J. Wang,Dir,P - Purchase,20.98,4760,32071,+17%,99865,True

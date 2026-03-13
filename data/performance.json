@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-13",
-  "entry_count": 601,
+  "entry_count": 605,
   "entries": [
     {
       "id": "US|IPWR|2026-02-25|Somo David M",
@@ -13838,6 +13838,86 @@
       },
       "latest_price": 18.06,
       "return_pct": -6.67,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|PTLO|2026-03-13|Lee Eugene I Jr",
+      "market": "US",
+      "ticker": "PTLO",
+      "yf_symbol": "PTLO",
+      "company": "Portillo'S Inc.",
+      "insider_name": "Lee Eugene I Jr",
+      "title": "Dir",
+      "trade_date": "2026-03-13",
+      "trade_price": 5.18,
+      "value": 1481480.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 5.16
+      },
+      "latest_price": 5.16,
+      "return_pct": -0.39,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|HGTY|2026-03-12|Kuczinski Anthony J",
+      "market": "US",
+      "ticker": "HGTY",
+      "yf_symbol": "HGTY",
+      "company": "Hagerty, Inc.",
+      "insider_name": "Kuczinski Anthony J",
+      "title": "Dir",
+      "trade_date": "2026-03-12",
+      "trade_price": 9.5,
+      "value": 38000.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 9.79
+      },
+      "latest_price": 9.79,
+      "return_pct": 3.05,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|NXRT|2026-03-11|McGraner Matt",
+      "market": "US",
+      "ticker": "NXRT",
+      "yf_symbol": "NXRT",
+      "company": "Nexpoint Residential Trust, Inc.",
+      "insider_name": "McGraner Matt",
+      "title": "See Remarks",
+      "trade_date": "2026-03-11",
+      "trade_price": 26.14,
+      "value": 26140.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 26.37
+      },
+      "latest_price": 26.37,
+      "return_pct": 0.88,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|FG|2026-03-13|Doka Celina J. Wang",
+      "market": "US",
+      "ticker": "FG",
+      "yf_symbol": "FG",
+      "company": "F&G Annuities & Life, Inc.",
+      "insider_name": "Doka Celina J. Wang",
+      "title": "Dir",
+      "trade_date": "2026-03-13",
+      "trade_price": 20.98,
+      "value": 99865.0,
+      "cluster_buy": true,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 20.69
+      },
+      "latest_price": 20.69,
+      "return_pct": -1.38,
       "last_snapshot": "2026-03-13"
     }
   ]
