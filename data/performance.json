@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-03-13",
-  "entry_count": 585,
+  "entry_count": 586,
   "entries": [
     {
       "id": "US|IPWR|2026-02-25|Somo David M",
@@ -3667,10 +3667,10 @@
         "2026-03-10": 0.275,
         "2026-03-11": 0.29,
         "2026-03-12": 0.2955,
-        "2026-03-13": 0.2949
+        "2026-03-13": 0.3
       },
-      "latest_price": 0.2949,
-      "return_pct": 47.45,
+      "latest_price": 0.3,
+      "return_pct": 50.0,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -3691,10 +3691,10 @@
         "2026-03-10": 0.275,
         "2026-03-11": 0.29,
         "2026-03-12": 0.2955,
-        "2026-03-13": 0.2949
+        "2026-03-13": 0.3
       },
-      "latest_price": 0.2949,
-      "return_pct": 47.45,
+      "latest_price": 0.3,
+      "return_pct": 50.0,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -3715,10 +3715,10 @@
         "2026-03-10": 0.275,
         "2026-03-11": 0.29,
         "2026-03-12": 0.2955,
-        "2026-03-13": 0.2949
+        "2026-03-13": 0.3
       },
-      "latest_price": 0.2949,
-      "return_pct": 47.45,
+      "latest_price": 0.3,
+      "return_pct": 50.0,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -3739,10 +3739,10 @@
         "2026-03-10": 0.275,
         "2026-03-11": 0.29,
         "2026-03-12": 0.2955,
-        "2026-03-13": 0.2949
+        "2026-03-13": 0.3
       },
-      "latest_price": 0.2949,
-      "return_pct": 47.45,
+      "latest_price": 0.3,
+      "return_pct": 50.0,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -4459,10 +4459,10 @@
         "2026-03-10": 7.85,
         "2026-03-11": 7.95,
         "2026-03-12": 8.0,
-        "2026-03-13": 8.11
+        "2026-03-13": 8.2
       },
-      "latest_price": 8.11,
-      "return_pct": 15.86,
+      "latest_price": 8.2,
+      "return_pct": 17.14,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -4483,10 +4483,10 @@
         "2026-03-10": 7.85,
         "2026-03-11": 7.95,
         "2026-03-12": 8.0,
-        "2026-03-13": 8.11
+        "2026-03-13": 8.2
       },
-      "latest_price": 8.11,
-      "return_pct": 15.86,
+      "latest_price": 8.2,
+      "return_pct": 17.14,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -4507,10 +4507,10 @@
         "2026-03-10": 7.85,
         "2026-03-11": 7.95,
         "2026-03-12": 8.0,
-        "2026-03-13": 8.11
+        "2026-03-13": 8.2
       },
-      "latest_price": 8.11,
-      "return_pct": 15.86,
+      "latest_price": 8.2,
+      "return_pct": 17.14,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -11478,10 +11478,10 @@
       "currency": "USD",
       "snapshots": {
         "2026-03-12": 8.0,
-        "2026-03-13": 8.11
+        "2026-03-13": 8.2
       },
-      "latest_price": 8.11,
-      "return_pct": 2.53,
+      "latest_price": 8.2,
+      "return_pct": 3.67,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -13434,10 +13434,10 @@
       "cluster_buy": false,
       "currency": "USD",
       "snapshots": {
-        "2026-03-13": 0.69
+        "2026-03-13": 0.684
       },
-      "latest_price": 0.69,
-      "return_pct": 187.5,
+      "latest_price": 0.684,
+      "return_pct": 185.0,
       "last_snapshot": "2026-03-13"
     },
     {
@@ -13518,6 +13518,26 @@
       },
       "latest_price": 29.61,
       "return_pct": 1.2,
+      "last_snapshot": "2026-03-13"
+    },
+    {
+      "id": "US|NP|2026-03-13|Burgess Trevor R",
+      "market": "US",
+      "ticker": "NP",
+      "yf_symbol": "NP",
+      "company": "Neptune Insurance Holdings Inc.",
+      "insider_name": "Burgess Trevor R",
+      "title": "CEO, COB, 10%",
+      "trade_date": "2026-03-13",
+      "trade_price": 18.71,
+      "value": 935345.0,
+      "cluster_buy": false,
+      "currency": "USD",
+      "snapshots": {
+        "2026-03-13": 18.19
+      },
+      "latest_price": 18.19,
+      "return_pct": -2.78,
       "last_snapshot": "2026-03-13"
     }
   ]
