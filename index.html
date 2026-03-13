@@ -724,7 +724,7 @@
               <td class="td-time">${escHtml(t.filing_time || '—')}</td>
               <td class="td-ticker">&nbsp;&nbsp;${escHtml(t.ticker || '—')}</td>
               <td class="td-company" title="${escHtml(t.company || '')}">${escHtml(t.company || '—')}</td>
-              <td>${escHtml(t.insider_name || '—')}</td>
+              <td class="td-insider" title="${escHtml(t.insider_name || '')}">${escHtml(t.insider_name || '—')}</td>
               <td>${titleBadge(t.title || 'Unknown')}</td>
               <td class="td-value">${formatCurrency(val)}</td>
               <td class="td-num">${formatShares(qty)}</td>
@@ -743,7 +743,7 @@
           <td class="td-time">${escHtml(t.filing_time || '—')}</td>
           <td class="td-ticker">${escHtml(t.ticker || '—')}</td>
           <td class="td-company" title="${escHtml(t.company || '')}">${escHtml(t.company || '—')}</td>
-          <td>${escHtml(t.insider_name || '—')}</td>
+          <td class="td-insider" title="${escHtml(t.insider_name || '')}">${escHtml(t.insider_name || '—')}</td>
           <td>${titleBadge(t.title || 'Unknown')}</td>
           <td class="td-value">${formatCurrency(val)}</td>
           <td class="td-num">${formatShares(qty)}</td>
